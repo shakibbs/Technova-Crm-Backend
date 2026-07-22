@@ -6,7 +6,10 @@ These convert model instances <-> JSON and validate incoming payloads.
 from rest_framework import serializers
 
 from accounts.models import ClientProfile, EmployeeProfile
-from .models import Lead, Milestone, Project, Proposal, ProposalMessage, Task, TaskUpdate
+from .models import (
+    Lead, Milestone, Project, Proposal, ProposalMessage, Task, TaskUpdate, 
+    ClientProjectRequest
+)
 
 
 class ClientProfileSerializer(serializers.ModelSerializer):
@@ -265,11 +268,27 @@ class LeadSerializer(serializers.ModelSerializer):
         read_only_fields = ['id', 'converted_client', 'converted_client_id', 'created_at', 'captcha_verified']
 
 
+class ClientProjectRequestSerializer(serializers.ModelSerializer):
+    """Staff-facing serializer for reviewing client project requests."""
+    
+    client_name = serializers.CharField(source='client.company_name', read_only=True)
+    client_email = serializers.CharField(source='client.user.email', read_only=True)
+
+    class Meta:
+        model = ClientProjectRequest
+        fields = [
+            'id', 'client', 'client_name', 'client_email', 'title', 
+            'description', 'desired_deadline', 'proposed_budget', 
+            'status', 'created_at'
+        ]
+        read_only_fields = ['id', 'client', 'client_name', 'client_email', 'created_at']
+
 class ProjectSerializer(serializers.ModelSerializer):
     """Project serializer with aggregated counts for dashboard cards."""
 
     task_count = serializers.IntegerField(read_only=True)        # annotated in the viewset
     completed_task_count = serializers.IntegerField(read_only=True)
+    unread_messages_count = serializers.IntegerField(read_only=True, required=False)
     client_name = serializers.SerializerMethodField(read_only=True)
     client_email = serializers.SerializerMethodField(read_only=True)
     client_industry = serializers.SerializerMethodField(read_only=True)
@@ -281,7 +300,7 @@ class ProjectSerializer(serializers.ModelSerializer):
             'id', 'title', 'description', 'status', 'client',
             'client_name', 'client_email', 'client_industry', 'client_billing_address',
             'start_date', 'target_end_date', 'created_at',
-            'task_count', 'completed_task_count',
+            'task_count', 'completed_task_count', 'unread_messages_count',
         ]
         read_only_fields = ['id', 'created_at']
 

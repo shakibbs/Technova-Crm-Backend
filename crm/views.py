@@ -16,14 +16,14 @@ from rest_framework.throttling import AnonRateThrottle
 
 from accounts.models import ClientProfile, EmployeeProfile, User
 from accounts.permissions import IsAdmin, IsAgencyStaff
-from .models import Lead, Milestone, Project, Proposal, ProposalMessage, Task
+from .models import Lead, Milestone, Project, Proposal, ProposalMessage, Task, ClientProjectRequest
 from .notify import send_client_credentials
 from .serializers import (
     ClientDetailSerializer, ClientProfileSerializer,
     EmployeeCreateSerializer, EmployeeListSerializer,
     LeadSerializer, MilestoneSerializer, ProjectSerializer,
     ProposalMessageSerializer, ProposalSerializer, PublicLeadSerializer,
-    TaskSerializer, TaskUpdateSerializer,
+    TaskSerializer, TaskUpdateSerializer, ClientProjectRequestSerializer
 )
 from .services import _generate_temp_password
 from .services import (
@@ -48,9 +48,36 @@ class ProjectViewSet(viewsets.ModelViewSet):
     def get_queryset(self):
         # Annotate task counts so the serializer can render dashboard progress.
         return super().get_queryset().annotate(
-            task_count=Count('tasks'),
-            completed_task_count=Count('tasks', filter=Q(tasks__status='done')),
+            task_count=Count('tasks', distinct=True),
+            completed_task_count=Count('tasks', filter=Q(tasks__status='done'), distinct=True),
+            unread_messages_count=Count('messages', filter=Q(messages__is_read_by_staff=False), distinct=True),
         )
+
+    def retrieve(self, request, *args, **kwargs):
+        """When a staff member opens a project, clear its unread messages."""
+        instance = self.get_object()
+        from .models import ProjectMessage
+        ProjectMessage.objects.filter(project=instance, is_read_by_staff=False).update(is_read_by_staff=True)
+        return super().retrieve(request, *args, **kwargs)
+
+    @action(detail=True, methods=['get', 'post'], url_path='messages')
+    def messages(self, request, pk=None):
+        """GET/POST /crm/projects/<uuid>/messages/ -> thread for the project."""
+        from .portal_serializers import PortalProjectMessageSerializer
+        project = self.get_object()
+        
+        if request.method == 'GET':
+            from .models import ProjectMessage
+            # Ensure staff sees all messages and it marks unread as read (just in case they ping this directly)
+            ProjectMessage.objects.filter(project=project, is_read_by_staff=False).update(is_read_by_staff=True)
+            serializer = PortalProjectMessageSerializer(project.messages.all(), many=True)
+            return Response(serializer.data)
+            
+        serializer = PortalProjectMessageSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        # Admins posting a message
+        msg = serializer.save(project=project, author=request.user, is_read_by_staff=True)
+        return Response(PortalProjectMessageSerializer(msg).data, status=status.HTTP_201_CREATED)
 
 
 class MilestoneViewSet(viewsets.ModelViewSet):
@@ -177,6 +204,21 @@ class LeadViewSet(viewsets.ModelViewSet):
              'client_email': lead.email},
             status=status.HTTP_201_CREATED,
         )
+
+class ClientProjectRequestViewSet(viewsets.ModelViewSet):
+    """
+    Staff management of existing client project requests (/api/v1/crm/project-requests/).
+    """
+    queryset = ClientProjectRequest.objects.select_related('client__user')
+    serializer_class = ClientProjectRequestSerializer
+    filterset_fields = ['status', 'client']
+    search_fields = ['title', 'description', 'client__company_name', 'client__user__email']
+    ordering_fields = ['created_at', 'status']
+
+    def get_permissions(self):
+        if self.action in ('create', 'update', 'partial_update', 'destroy'):
+            return [IsAdmin()]
+        return [IsAgencyStaff()]
 
 
 class ProposalViewSet(viewsets.ModelViewSet):

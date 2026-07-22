@@ -12,7 +12,7 @@ from rest_framework.routers import DefaultRouter
 from .views import (
     ClientDetailView, ClientListView, EmployeeCreateView, EmployeeDetailView,
     EmployeeListView, LeadViewSet, MilestoneViewSet, ProjectViewSet,
-    ProposalViewSet, TaskViewSet,
+    ProposalViewSet, TaskViewSet, ClientProjectRequestViewSet
 )
 
 router = DefaultRouter()
@@ -21,6 +21,7 @@ router.register(r'milestones', MilestoneViewSet, basename='milestone')
 router.register(r'tasks', TaskViewSet, basename='task')
 router.register(r'leads', LeadViewSet, basename='lead')      # includes /convert/ action
 router.register(r'proposals', ProposalViewSet, basename='proposal')  # /send/ + /accept/
+router.register(r'project-requests', ClientProjectRequestViewSet, basename='project-request')
 
 urlpatterns = [
     path('clients/', ClientListView.as_view(), name='client-list'),          # for create dropdowns

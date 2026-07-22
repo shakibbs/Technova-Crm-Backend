@@ -7,7 +7,56 @@ and are always scoped to the requesting client's own records.
 """
 from rest_framework import serializers
 
-from .models import Milestone, Project, Proposal, ProposalMessage, Task
+from .models import (
+    Milestone, Project, Proposal, ProposalMessage, Task,
+    ProjectMessage, ClientProjectRequest
+)
+
+class PortalClientProjectRequestSerializer(serializers.ModelSerializer):
+    """Client-facing form schema for requesting a new project."""
+    class Meta:
+        model = ClientProjectRequest
+        fields = [
+            'id', 'title', 'description', 'desired_deadline', 
+            'proposed_budget', 'status', 'created_at'
+        ]
+        read_only_fields = ['id', 'status', 'created_at']
+
+class PortalProjectMessageSerializer(serializers.ModelSerializer):
+    """Client-facing project communication."""
+    author_name = serializers.SerializerMethodField()
+    author_email = serializers.CharField(source='author.email', read_only=True)
+    author_role = serializers.SerializerMethodField()
+
+    class Meta:
+        model = ProjectMessage
+        fields = [
+            'id', 'author', 'author_name', 'author_email', 'author_role', 'body', 
+            'is_feature_request', 'created_at'
+        ]
+        read_only_fields = ['id', 'author', 'author_name', 'author_email', 'author_role', 'created_at']
+        extra_kwargs = {'project': {'required': False}}
+
+    def get_author_name(self, obj):
+        if not obj.author:
+            return None
+            
+        full_name = f"{obj.author.first_name} {obj.author.last_name}".strip()
+        
+        if obj.author.role in ['admin', 'employee']:
+            return full_name or "TechNova Staff"
+        # If client, fallback to company name
+        try:
+            if hasattr(obj.author, 'client_profile') and obj.author.client_profile and obj.author.client_profile.company_name:
+                return obj.author.client_profile.company_name
+        except Exception:
+            pass
+            
+        return full_name or obj.author.email
+
+    def get_author_role(self, obj):
+        return obj.author.role if obj.author else None
+
 
 
 class PortalMilestoneSerializer(serializers.ModelSerializer):

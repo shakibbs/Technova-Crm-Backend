@@ -18,10 +18,10 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 
 from accounts.permissions import IsPortalClient
-from .models import Project, Proposal, ProposalMessage
+from .models import Project, Proposal, ProposalMessage, ClientProjectRequest, ProjectMessage
 from .portal_serializers import (
     PortalProposalMessageSerializer, PortalProposalSerializer,
-    PortalProjectSerializer,
+    PortalProjectSerializer, PortalClientProjectRequestSerializer, PortalProjectMessageSerializer
 )
 from .services import accept_counter_offer, accept_proposal, reject_proposal
 
@@ -166,3 +166,34 @@ class PortalProjectViewSet(_ClientScopedMixin, viewsets.ReadOnlyModelViewSet):
             task_count=Count('tasks'),
             completed_task_count=Count('tasks', filter=Q(tasks__status='done')),
         )
+
+    @action(detail=True, methods=['get', 'post'], url_path='messages')
+    def messages(self, request, pk=None):
+        """GET/POST /portal/projects/<uuid>/messages/"""
+        project = self.get_object()
+        
+        if request.method == 'GET':
+            msgs = project.messages.all()
+            return Response(PortalProjectMessageSerializer(msgs, many=True).data)
+            
+        serializer = PortalProjectMessageSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        # if the message is sent via /messages/, handle if it's a feature request based on payload
+        serializer.save(project=project, author=request.user)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+# ── Project Requests ─────────────────────────────────────────────
+
+class ClientProjectRequestViewSet(_ClientScopedMixin, viewsets.ModelViewSet):
+    """
+    Client portal requests for new projects.
+    Clients can list, create, and retrieve their requests.
+    """
+    serializer_class = PortalClientProjectRequestSerializer
+
+    def get_queryset(self):
+        return ClientProjectRequest.objects.filter(client=self.client_profile)
+
+    def perform_create(self, serializer):
+        # Automatically attach the requesting client's profile
+        serializer.save(client=self.client_profile)

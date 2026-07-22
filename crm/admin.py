@@ -3,7 +3,10 @@ Django admin registration for CRM models.
 """
 from django.contrib import admin
 
-from .models import Lead, Milestone, Project, Proposal, ProposalMessage, Task
+from .models import (
+    Lead, Milestone, Project, Proposal, ProposalMessage, Task,
+    ClientProjectRequest, ProjectMessage
+)
 
 
 @admin.register(Project)
@@ -53,3 +56,19 @@ class ProposalAdmin(admin.ModelAdmin):
     date_hierarchy = 'created_at'
     readonly_fields = ('linked_project',)  # set only by accept_proposal()
     inlines = [ProposalMessageInline]
+
+
+@admin.register(ClientProjectRequest)
+class ClientProjectRequestAdmin(admin.ModelAdmin):
+    list_display = ('title', 'client', 'status', 'desired_deadline', 'created_at')
+    list_filter = ('status',)
+    search_fields = ('title', 'client__company_name')
+    date_hierarchy = 'created_at'
+
+
+@admin.register(ProjectMessage)
+class ProjectMessageAdmin(admin.ModelAdmin):
+    list_display = ('project', 'author', 'is_feature_request', 'created_at')
+    list_filter = ('is_feature_request',)
+    search_fields = ('project__title', 'body')
+    date_hierarchy = 'created_at'

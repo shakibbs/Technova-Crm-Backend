@@ -7,11 +7,12 @@ Only authenticated clients (role='client') can access these endpoints.
 from django.urls import include, path
 from rest_framework.routers import DefaultRouter
 
-from .portal_views import PortalProjectViewSet, PortalProposalViewSet
+from .portal_views import PortalProjectViewSet, PortalProposalViewSet, ClientProjectRequestViewSet
 
 router = DefaultRouter()
 router.register(r'proposals', PortalProposalViewSet, basename='portal-proposal')
 router.register(r'projects', PortalProjectViewSet, basename='portal-project')
+router.register(r'project-requests', ClientProjectRequestViewSet, basename='portal-project-request')
 
 urlpatterns = [
     path('', include(router.urls)),

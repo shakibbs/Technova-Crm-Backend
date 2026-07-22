@@ -267,3 +267,52 @@ class ProposalMessage(TimeStampedModel):
         if self.message_type == self.MessageType.COUNTER_OFFER:
             return f'Counter-offer by {self.author} ({self.offer_status})'
         return f'Message by {self.author} on {self.proposal}'
+
+
+class ClientProjectRequest(TimeStampedModel):
+    """
+    A request originated from an existing client via the client portal.
+    Differs from Lead which is for new public users. Staff can review this
+    and directly create a Proposal.
+    """
+    class Status(models.TextChoices):
+        PENDING = 'pending', 'Pending'
+        REVIEWED = 'reviewed', 'Reviewed'
+        PROPOSAL_SENT = 'proposal_sent', 'Proposal Sent'
+        REJECTED = 'rejected', 'Rejected'
+
+    client = models.ForeignKey(
+        ClientProfile, on_delete=models.CASCADE, related_name='project_requests')
+    title = models.CharField(max_length=255)
+    description = models.TextField()
+    desired_deadline = models.DateField(null=True, blank=True)
+    proposed_budget = models.DecimalField(max_digits=12, decimal_places=2, null=True, blank=True)
+    status = models.CharField(
+        max_length=20, choices=Status.choices, default=Status.PENDING, db_index=True)
+
+    class Meta:
+        ordering = ['-created_at']
+
+    def __str__(self):
+        return f'{self.title} ({self.client})'
+
+
+class ProjectMessage(TimeStampedModel):
+    """
+    Threaded message log for a specific Project, visible to both staff and client.
+    Can be a regular message or a feature request.
+    """
+    project = models.ForeignKey(
+        Project, on_delete=models.CASCADE, related_name='messages')
+    author = models.ForeignKey(
+        settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, null=True, blank=True,
+        related_name='project_messages')
+    body = models.TextField()
+    is_feature_request = models.BooleanField(default=False, db_index=True)
+    is_read_by_staff = models.BooleanField(default=False)
+
+    class Meta:
+        ordering = ['created_at']  # chronological thread
+
+    def __str__(self):
+        return f'Message by {self.author} on {self.project}'
