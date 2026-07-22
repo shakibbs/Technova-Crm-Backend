@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Database
+db.sqlite3
+db.sqlite3-journal
+
+# Django media/static (generated)
+/media/
+/staticfiles/
+
+# Python venv
+venv/
+env/
+.venv/
+
+# Ignore frontend repository
+/frontend/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Junk
+$null
