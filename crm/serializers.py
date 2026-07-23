@@ -267,6 +267,23 @@ class LeadSerializer(serializers.ModelSerializer):
         ]
         read_only_fields = ['id', 'converted_client', 'converted_client_id', 'created_at', 'captcha_verified']
 
+    def validate_status(self, value):
+        """
+        Enforce strict pipeline rules:
+        1. Cannot manually patch to 'converted' (must use the /convert/ action).
+        2. Cannot change status if lead is already in a finalized state ('converted' or 'lost').
+        """
+        if self.instance:
+            if self.instance.status in (Lead.Status.CONVERTED, Lead.Status.LOST) and value != self.instance.status:
+                raise serializers.ValidationError(
+                    f"Cannot change pipeline status once the lead is marked as {self.instance.status}."
+                )
+            if value == Lead.Status.CONVERTED and self.instance.status != Lead.Status.CONVERTED:
+                raise serializers.ValidationError(
+                    "You cannot manually set status to 'converted'. Use the convert action to create a client account."
+                )
+        return value
+
 
 class ClientProjectRequestSerializer(serializers.ModelSerializer):
     """Staff-facing serializer for reviewing client project requests."""
