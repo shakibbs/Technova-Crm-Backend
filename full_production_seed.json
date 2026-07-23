@@ -1,1871 +1,1871 @@
 [
-{
-    "model": "sessions.session",
-    "pk": "51methgp43bei2hjfbrj9v0w6azmxte2",
-    "fields": {
-        "session_data": ".eJxVjDkOwjAQAP-yNbJ8xFdKet5g7frAAWRLcVIh_o4ipYB2ZjRvCLhvNewjr2FJMIOAyy8jjM_cDpEe2O6dxd62dSF2JOy0g916yq_r2f4NKo4KMxQuJiQlTYpFkeGIVphc_JSIpMq6cMu1dejQKWWMj0S-RGH0pLyOMsHnC_CvN_4:1wmY4P:GlTYsv6JOZ2iWv8bqlOT0HRJGmf-OrR4L-yHeDNlrb0",
-        "expire_date": "2026-08-05T14:37:13.724Z"
+    {
+        "model": "sessions.session",
+        "pk": "51methgp43bei2hjfbrj9v0w6azmxte2",
+        "fields": {
+            "session_data": ".eJxVjDkOwjAQAP-yNbJ8xFdKet5g7frAAWRLcVIh_o4ipYB2ZjRvCLhvNewjr2FJMIOAyy8jjM_cDpEe2O6dxd62dSF2JOy0g916yq_r2f4NKo4KMxQuJiQlTYpFkeGIVphc_JSIpMq6cMu1dejQKWWMj0S-RGH0pLyOMsHnC_CvN_4:1wmY4P:GlTYsv6JOZ2iWv8bqlOT0HRJGmf-OrR4L-yHeDNlrb0",
+            "expire_date": "2026-08-05T14:37:13.724Z"
+        }
+    },
+    {
+        "model": "accounts.user",
+        "fields": {
+            "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$QjR2cENZUnozRlVqY3NTanVuMEkxZQ$kFkScFYIJ7ZMnHc6upjuZ1agOD6FxZcjpKF9BUWD0gk",
+            "last_login": "2026-07-22T14:37:13.722Z",
+            "is_superuser": true,
+            "email": "admin@technova.com",
+            "first_name": "Tech",
+            "last_name": "Nova",
+            "role": "admin",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2026-07-17T09:41:39.124Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "accounts.user",
+        "fields": {
+            "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$Q1N0bmNadFFBa3ZPUFZ2bjc2ZVRhbQ$PrFAQXwOKH6hmInFAWICQdtILMh5NkIaxta72nSQUE8",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "client@test.com",
+            "first_name": "",
+            "last_name": "",
+            "role": "client",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-07-17T14:38:23.167Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "accounts.user",
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$1LbYFLFfaoWBBFMN7Im5nv$oBapxT4HS619aI7g0UQMrb1uSiyqUBv0Eaw7uaQ8cs4=",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "john.carter@example.com",
+            "first_name": "John",
+            "last_name": "",
+            "role": "client",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-07-17T15:18:04.379Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "accounts.user",
+        "fields": {
+            "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$SklsM3hHdVRxMHBzQ2FHSllEbkMycg$Q1a1bup86OkWfvSKGw26EY07s82qVLW75DNcd1YfEfE",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "celeryasync@example.com",
+            "first_name": "Celery",
+            "last_name": "",
+            "role": "client",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-07-18T09:45:49.603Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "accounts.user",
+        "fields": {
+            "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$aVFKbzdnSVhMcEhVNDUzU2dSODBXZw$f+7Vk4X0hzOfQCV2u7uM0pdzv6c9Xmn5snldSbOr74o",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "rakibulislamshakib570@gmail.com",
+            "first_name": "Rakibul",
+            "last_name": "",
+            "role": "client",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-07-21T16:49:13.480Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "accounts.user",
+        "fields": {
+            "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$UHlUTFlPZmxEa0wybGV1M3NYTG9sWg$wJhV7FB3iMmGpcrFz3V41f2/DDxxbHSPRG3wOvI4Re0",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "21303063@iubat.edu",
+            "first_name": "Rakibul",
+            "last_name": "Islam",
+            "role": "employee",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-07-21T19:26:53.014Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "accounts.user",
+        "fields": {
+            "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$VGFyaTRaRHlhbVZRVDhHUmN1RDdDSA$njIDuhl/Ha+Eiy78lwQ0jHyVv1dIOKezVFUtHjETCoM",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "asahadhasan@gmail.com",
+            "first_name": "Ahad",
+            "last_name": "Hasan",
+            "role": "employee",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-07-22T09:30:43.664Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "accounts.user",
+        "fields": {
+            "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$Mk1tbWM1QlhZVElvRGtlU2JzRkxaRw$o4mhSYznl+a6jGQcOKjvfw4hThJN1LOxRAjA2V4bc8g",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "rakibul19shakib@gmail.com",
+            "first_name": "Choton",
+            "last_name": "Ahmed",
+            "role": "employee",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-07-22T09:32:58.881Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "accounts.user",
+        "fields": {
+            "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$M0pVbHJYVXZnYndXck9EV0hVR1FrSA$b1e8PPnVmgSZDAuBC778ksC6EaW1cNx4EtK3I2uGUQI",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "tuhin69@yopmail.com",
+            "first_name": "Taufiq",
+            "last_name": "Hasan",
+            "role": "employee",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-07-22T09:34:36.008Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "accounts.user",
+        "fields": {
+            "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$MTJJc3FvdVFEVWM0eFZUcDJEaUlHYg$DBvsHT0zzvEVvW8a9vDr6CEzKs/MOQDlUuAceqWmq8U",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "radmim@yopmail.com",
+            "first_name": "Radowan",
+            "last_name": "Ahmed",
+            "role": "employee",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-07-22T09:35:50.644Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "accounts.user",
+        "fields": {
+            "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$cU5sV2dwbVkzaW5SMXBHeFZRMTNGZw$4xR8E6ddvkheGbxxTf75Asvsvw4w5WRkpeTtJKUy1FQ",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "maruf69@yopmail.com",
+            "first_name": "Maruf",
+            "last_name": "Hossain",
+            "role": "employee",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-07-22T09:37:24.139Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "accounts.user",
+        "fields": {
+            "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$NmtUMGhzazVvVVFmNTRrUE1OZEdIbQ$LYUhFiQT9YVhSp0bodDi0Gf1vkxw4nxCnS5JAlsW210",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "celerytest2@example.com",
+            "first_name": "Celery",
+            "last_name": "",
+            "role": "client",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-07-22T19:36:04.726Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "accounts.user",
+        "fields": {
+            "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$Q0RUTEJyNnV2QkxXRUh0UURZWWtPdA$oe4Y2W2tnfyzOst0AKNwZIshLlVx+XGzqLIbeEqJGG4",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "sajid@yopmail.com",
+            "first_name": "sajid",
+            "last_name": "",
+            "role": "client",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-07-22T20:18:41.666Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "accounts.user",
+        "fields": {
+            "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$bU0xZnIwOHhpcWkwZkU4Rk50dFJQbw$HQNRkYCGhPa0bKhZv8FN9uRk2f4YT6JtSfepCIoY/NE",
+            "last_login": null,
+            "is_superuser": false,
+            "email": "alamin@yopmail.com",
+            "first_name": "Alamin",
+            "last_name": "",
+            "role": "client",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-07-23T09:15:50.725Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "accounts.clientprofile",
+        "pk": 1,
+        "fields": {
+            "user": [
+                "client@test.com"
+            ],
+            "company_name": "Acme Corp",
+            "industry": "Retail",
+            "billing_address": ""
+        }
+    },
+    {
+        "model": "accounts.clientprofile",
+        "pk": 2,
+        "fields": {
+            "user": [
+                "john.carter@example.com"
+            ],
+            "company_name": "Carter Industries",
+            "industry": "",
+            "billing_address": ""
+        }
+    },
+    {
+        "model": "accounts.clientprofile",
+        "pk": 3,
+        "fields": {
+            "user": [
+                "celeryasync@example.com"
+            ],
+            "company_name": "AsyncCo",
+            "industry": "",
+            "billing_address": ""
+        }
+    },
+    {
+        "model": "accounts.clientprofile",
+        "pk": 4,
+        "fields": {
+            "user": [
+                "rakibulislamshakib570@gmail.com"
+            ],
+            "company_name": "Softech",
+            "industry": "",
+            "billing_address": ""
+        }
+    },
+    {
+        "model": "accounts.clientprofile",
+        "pk": 5,
+        "fields": {
+            "user": [
+                "celerytest2@example.com"
+            ],
+            "company_name": "TestCo",
+            "industry": "",
+            "billing_address": ""
+        }
+    },
+    {
+        "model": "accounts.clientprofile",
+        "pk": 6,
+        "fields": {
+            "user": [
+                "sajid@yopmail.com"
+            ],
+            "company_name": "Ghorar Dim",
+            "industry": "",
+            "billing_address": ""
+        }
+    },
+    {
+        "model": "accounts.clientprofile",
+        "pk": 7,
+        "fields": {
+            "user": [
+                "alamin@yopmail.com"
+            ],
+            "company_name": "Almo",
+            "industry": "",
+            "billing_address": ""
+        }
+    },
+    {
+        "model": "accounts.employeeprofile",
+        "pk": 1,
+        "fields": {
+            "user": [
+                "21303063@iubat.edu"
+            ],
+            "department": "Fintech",
+            "hire_date": null
+        }
+    },
+    {
+        "model": "accounts.employeeprofile",
+        "pk": 2,
+        "fields": {
+            "user": [
+                "asahadhasan@gmail.com"
+            ],
+            "department": "HealthTech",
+            "hire_date": null
+        }
+    },
+    {
+        "model": "accounts.employeeprofile",
+        "pk": 3,
+        "fields": {
+            "user": [
+                "rakibul19shakib@gmail.com"
+            ],
+            "department": "PropTech",
+            "hire_date": null
+        }
+    },
+    {
+        "model": "accounts.employeeprofile",
+        "pk": 4,
+        "fields": {
+            "user": [
+                "tuhin69@yopmail.com"
+            ],
+            "department": "EdTech",
+            "hire_date": null
+        }
+    },
+    {
+        "model": "accounts.employeeprofile",
+        "pk": 5,
+        "fields": {
+            "user": [
+                "radmim@yopmail.com"
+            ],
+            "department": "MarTech",
+            "hire_date": null
+        }
+    },
+    {
+        "model": "accounts.employeeprofile",
+        "pk": 6,
+        "fields": {
+            "user": [
+                "maruf69@yopmail.com"
+            ],
+            "department": "GovTech",
+            "hire_date": null
+        }
+    },
+    {
+        "model": "crm.project",
+        "pk": "0934f375-872f-46f5-9dc2-9789ef7dc320",
+        "fields": {
+            "created_at": "2026-07-17T18:36:50.701Z",
+            "updated_at": "2026-07-22T14:15:47.134Z",
+            "title": "Portal Test: Web Platform",
+            "description": "Full-stack web platform with admin panel.",
+            "status": "completed",
+            "client": 1,
+            "start_date": "2026-07-25",
+            "target_end_date": "2026-10-26"
+        }
+    },
+    {
+        "model": "crm.project",
+        "pk": "2ca0f032-8268-447c-9af4-acfe01144227",
+        "fields": {
+            "created_at": "2026-07-22T16:27:20.341Z",
+            "updated_at": "2026-07-22T20:17:05.672Z",
+            "title": "E-commerce",
+            "description": "A fully functional system",
+            "status": "on_hold",
+            "client": 4,
+            "start_date": "2026-07-22",
+            "target_end_date": "2026-08-08"
+        }
+    },
+    {
+        "model": "crm.project",
+        "pk": "723c6a90-0242-49a2-982e-9e411883844a",
+        "fields": {
+            "created_at": "2026-07-17T14:47:35.488Z",
+            "updated_at": "2026-07-22T14:15:47.141Z",
+            "title": "Website Redesign",
+            "description": "",
+            "status": "completed",
+            "client": 1,
+            "start_date": "2026-07-17",
+            "target_end_date": null
+        }
+    },
+    {
+        "model": "crm.project",
+        "pk": "9091d20b-b9e6-4ae0-92b7-96860d891f9d",
+        "fields": {
+            "created_at": "2026-07-22T13:44:06.615Z",
+            "updated_at": "2026-07-22T13:44:06.615Z",
+            "title": "Website Development",
+            "description": "we will also need a payment system",
+            "status": "not_started",
+            "client": 4,
+            "start_date": "2026-07-22",
+            "target_end_date": "2026-08-05"
+        }
+    },
+    {
+        "model": "crm.project",
+        "pk": "ad8a7201-836c-4327-b1d3-1c728dabd1b4",
+        "fields": {
+            "created_at": "2026-07-22T19:36:36.513Z",
+            "updated_at": "2026-07-22T20:16:59.211Z",
+            "title": "Health Tracker",
+            "description": "A mobile application for health tracking",
+            "status": "not_started",
+            "client": 4,
+            "start_date": "2026-08-01",
+            "target_end_date": "2026-09-05"
+        }
+    },
+    {
+        "model": "crm.project",
+        "pk": "f8054ddf-f8c4-49d9-b2bc-b9beae920fbb",
+        "fields": {
+            "created_at": "2026-07-17T14:45:00.178Z",
+            "updated_at": "2026-07-22T14:15:47.143Z",
+            "title": "Website Redesign",
+            "description": "",
+            "status": "completed",
+            "client": 1,
+            "start_date": "2026-07-17",
+            "target_end_date": null
+        }
+    },
+    {
+        "model": "crm.project",
+        "pk": "f9ce8a3a-6dd7-4ed2-92e5-1b0f6587ba7d",
+        "fields": {
+            "created_at": "2026-07-17T15:59:56.845Z",
+            "updated_at": "2026-07-22T14:15:47.140Z",
+            "title": "E-commerce Website Build",
+            "description": "Full Shopify-based e-commerce platform with custom theme, payment integration, and admin dashboard.",
+            "status": "completed",
+            "client": 1,
+            "start_date": "2026-07-24",
+            "target_end_date": "2026-10-15"
+        }
+    },
+    {
+        "model": "crm.task",
+        "pk": "164f0e5a-c9d9-45d4-8f5d-e18609e3800c",
+        "fields": {
+            "created_at": "2026-07-22T09:46:40.825Z",
+            "updated_at": "2026-07-22T13:51:57.634Z",
+            "title": "Fix the bugs",
+            "description": "",
+            "project": "0934f375-872f-46f5-9dc2-9789ef7dc320",
+            "assignee": [
+                "21303063@iubat.edu"
+            ],
+            "priority": "medium",
+            "status": "done",
+            "due_date": "2026-07-25"
+        }
+    },
+    {
+        "model": "crm.task",
+        "pk": "237a0d36-869e-4fe5-ad23-1d03f9c5697f",
+        "fields": {
+            "created_at": "2026-07-22T19:39:54.237Z",
+            "updated_at": "2026-07-22T19:39:54.267Z",
+            "title": "HomePage",
+            "description": "",
+            "project": "2ca0f032-8268-447c-9af4-acfe01144227",
+            "assignee": [
+                "tuhin69@yopmail.com"
+            ],
+            "priority": "medium",
+            "status": "todo",
+            "due_date": "2026-07-28"
+        }
+    },
+    {
+        "model": "crm.task",
+        "pk": "605056a9-94bf-4044-8a3f-e5199d0dc36d",
+        "fields": {
+            "created_at": "2026-07-21T19:59:30.507Z",
+            "updated_at": "2026-07-22T09:25:24.834Z",
+            "title": "Change the ui",
+            "description": "",
+            "project": "723c6a90-0242-49a2-982e-9e411883844a",
+            "assignee": [
+                "21303063@iubat.edu"
+            ],
+            "priority": "medium",
+            "status": "done",
+            "due_date": "2026-07-31"
+        }
+    },
+    {
+        "model": "crm.task",
+        "pk": "6a66eac9-9cac-4be6-9688-136f9900486c",
+        "fields": {
+            "created_at": "2026-07-17T14:47:35.756Z",
+            "updated_at": "2026-07-21T18:37:49.607Z",
+            "title": "Design homepage mockup",
+            "description": "",
+            "project": "723c6a90-0242-49a2-982e-9e411883844a",
+            "assignee": null,
+            "priority": "high",
+            "status": "done",
+            "due_date": null
+        }
+    },
+    {
+        "model": "crm.task",
+        "pk": "79476b2c-3b57-4c56-9399-6e89d4567f7a",
+        "fields": {
+            "created_at": "2026-07-22T19:40:22.572Z",
+            "updated_at": "2026-07-22T19:40:22.585Z",
+            "title": "Admin Panel",
+            "description": "",
+            "project": "2ca0f032-8268-447c-9af4-acfe01144227",
+            "assignee": [
+                "asahadhasan@gmail.com"
+            ],
+            "priority": "medium",
+            "status": "todo",
+            "due_date": "2026-07-30"
+        }
+    },
+    {
+        "model": "crm.task",
+        "pk": "be407e28-872d-482c-af09-55a090b4153c",
+        "fields": {
+            "created_at": "2026-07-22T09:43:03.796Z",
+            "updated_at": "2026-07-22T13:54:04.240Z",
+            "title": "Redesign the Dashboard of all users",
+            "description": "",
+            "project": "f8054ddf-f8c4-49d9-b2bc-b9beae920fbb",
+            "assignee": [
+                "rakibul19shakib@gmail.com"
+            ],
+            "priority": "medium",
+            "status": "done",
+            "due_date": "2026-07-29"
+        }
+    },
+    {
+        "model": "crm.task",
+        "pk": "d2a69e8e-d870-4ecd-90e4-b346d07a7d35",
+        "fields": {
+            "created_at": "2026-07-22T09:46:15.787Z",
+            "updated_at": "2026-07-22T13:54:43.636Z",
+            "title": "Test all the api",
+            "description": "",
+            "project": "0934f375-872f-46f5-9dc2-9789ef7dc320",
+            "assignee": [
+                "radmim@yopmail.com"
+            ],
+            "priority": "medium",
+            "status": "done",
+            "due_date": "2026-07-23"
+        }
+    },
+    {
+        "model": "crm.task",
+        "pk": "db99f83b-d5c7-435a-9147-73c6858c207c",
+        "fields": {
+            "created_at": "2026-07-22T09:45:48.471Z",
+            "updated_at": "2026-07-22T13:51:37.233Z",
+            "title": "Create the database relations table structure",
+            "description": "",
+            "project": "f9ce8a3a-6dd7-4ed2-92e5-1b0f6587ba7d",
+            "assignee": [
+                "asahadhasan@gmail.com"
+            ],
+            "priority": "low",
+            "status": "done",
+            "due_date": "2026-07-25"
+        }
+    },
+    {
+        "model": "crm.task",
+        "pk": "e1cded08-efa3-484c-b863-68b903c71157",
+        "fields": {
+            "created_at": "2026-07-22T09:43:40.462Z",
+            "updated_at": "2026-07-22T13:52:22.787Z",
+            "title": "Change the security system",
+            "description": "",
+            "project": "f8054ddf-f8c4-49d9-b2bc-b9beae920fbb",
+            "assignee": [
+                "maruf69@yopmail.com"
+            ],
+            "priority": "medium",
+            "status": "done",
+            "due_date": "2026-07-28"
+        }
+    },
+    {
+        "model": "crm.task",
+        "pk": "ef6659ec-7b7b-4f78-8983-73d5e3b02c47",
+        "fields": {
+            "created_at": "2026-07-22T09:45:14.804Z",
+            "updated_at": "2026-07-22T13:52:45.203Z",
+            "title": "make the architecture of the project",
+            "description": "",
+            "project": "f9ce8a3a-6dd7-4ed2-92e5-1b0f6587ba7d",
+            "assignee": [
+                "tuhin69@yopmail.com"
+            ],
+            "priority": "high",
+            "status": "done",
+            "due_date": "2026-07-24"
+        }
+    },
+    {
+        "model": "crm.taskupdate",
+        "pk": "539d5e33-f4ff-4676-9821-0d2961c90c49",
+        "fields": {
+            "created_at": "2026-07-22T09:25:15.698Z",
+            "updated_at": "2026-07-22T09:25:15.698Z",
+            "task": "605056a9-94bf-4044-8a3f-e5199d0dc36d",
+            "author": [
+                "admin@technova.com"
+            ],
+            "update_type": "reply",
+            "body": "Great job"
+        }
+    },
+    {
+        "model": "crm.taskupdate",
+        "pk": "5c2dda89-affa-44f1-a369-14f223415eee",
+        "fields": {
+            "created_at": "2026-07-22T13:51:31.111Z",
+            "updated_at": "2026-07-22T13:51:31.111Z",
+            "task": "db99f83b-d5c7-435a-9147-73c6858c207c",
+            "author": [
+                "asahadhasan@gmail.com"
+            ],
+            "update_type": "progress",
+            "body": "architecture done"
+        }
+    },
+    {
+        "model": "crm.taskupdate",
+        "pk": "5d0a6c11-ec1a-4fc4-9a16-cbd665689f44",
+        "fields": {
+            "created_at": "2026-07-22T09:24:44.581Z",
+            "updated_at": "2026-07-22T09:24:44.581Z",
+            "task": "605056a9-94bf-4044-8a3f-e5199d0dc36d",
+            "author": [
+                "21303063@iubat.edu"
+            ],
+            "update_type": "progress",
+            "body": "The work is done"
+        }
+    },
+    {
+        "model": "crm.lead",
+        "pk": "12659305-afc8-40d4-b17b-7cdfeae20ed1",
+        "fields": {
+            "created_at": "2026-07-18T09:45:49.037Z",
+            "updated_at": "2026-07-18T09:45:49.037Z",
+            "name": "Celery Async",
+            "email": "celeryasync@example.com",
+            "phone": "123",
+            "company": "AsyncCo",
+            "message": "Test",
+            "desired_deadline": "2026-12-01",
+            "source": "website",
+            "status": "converted",
+            "captcha_verified": true,
+            "converted_client": 3
+        }
+    },
+    {
+        "model": "crm.lead",
+        "pk": "1b3e5cd0-2260-4cf5-a987-13e5eccdfc15",
+        "fields": {
+            "created_at": "2026-07-22T19:57:59.224Z",
+            "updated_at": "2026-07-22T19:57:59.224Z",
+            "name": "sajid",
+            "email": "sajid@yopmail.com",
+            "phone": "01234567890",
+            "company": "Ghorar Dim",
+            "message": "Website for my clothing brand",
+            "desired_deadline": null,
+            "source": "website",
+            "status": "converted",
+            "captcha_verified": true,
+            "converted_client": 6
+        }
+    },
+    {
+        "model": "crm.lead",
+        "pk": "3cd50452-1805-41c1-84c5-38dbc3be3597",
+        "fields": {
+            "created_at": "2026-07-21T16:31:39.961Z",
+            "updated_at": "2026-07-21T18:35:46.805Z",
+            "name": "Rakibul Islam Shakib",
+            "email": "rakibulislamshakib570@gmail.com",
+            "phone": "01850765614",
+            "company": "Softech",
+            "message": "I need to build a website for my brand",
+            "desired_deadline": null,
+            "source": "website",
+            "status": "converted",
+            "captcha_verified": true,
+            "converted_client": 4
+        }
+    },
+    {
+        "model": "crm.lead",
+        "pk": "4028f538-c908-47fc-89a5-3c0c47205324",
+        "fields": {
+            "created_at": "2026-07-21T16:31:44.131Z",
+            "updated_at": "2026-07-21T19:47:38.389Z",
+            "name": "Rakibul Islam Shakib",
+            "email": "rakibulislamshakib570@gmail.com",
+            "phone": "01850765614",
+            "company": "Softech",
+            "message": "I need to build a website for my brand",
+            "desired_deadline": null,
+            "source": "website",
+            "status": "contacted",
+            "captcha_verified": true,
+            "converted_client": 4
+        }
+    },
+    {
+        "model": "crm.lead",
+        "pk": "6d0ab580-8094-43f5-be5e-13f7dfa46018",
+        "fields": {
+            "created_at": "2026-07-18T09:45:23.521Z",
+            "updated_at": "2026-07-18T09:45:23.521Z",
+            "name": "Celery Test",
+            "email": "celerytest2@example.com",
+            "phone": "123",
+            "company": "TestCo",
+            "message": "Testing async email",
+            "desired_deadline": "2026-12-01",
+            "source": "website",
+            "status": "converted",
+            "captcha_verified": true,
+            "converted_client": 5
+        }
+    },
+    {
+        "model": "crm.lead",
+        "pk": "8b29d2d4-785b-4bce-8f9e-0391a7c51c72",
+        "fields": {
+            "created_at": "2026-07-17T15:18:03.672Z",
+            "updated_at": "2026-07-17T15:18:03.672Z",
+            "name": "John Carter",
+            "email": "john.carter@example.com",
+            "phone": "+1234567890",
+            "company": "Carter Industries",
+            "message": "We need a new inventory management system.",
+            "desired_deadline": null,
+            "source": "website",
+            "status": "converted",
+            "captcha_verified": true,
+            "converted_client": 2
+        }
+    },
+    {
+        "model": "crm.lead",
+        "pk": "8d93a756-221f-4239-94fd-675e60411e64",
+        "fields": {
+            "created_at": "2026-07-23T09:14:24.529Z",
+            "updated_at": "2026-07-23T09:14:24.529Z",
+            "name": "Alamin",
+            "email": "alamin@yopmail.com",
+            "phone": "01234567890",
+            "company": "Almo",
+            "message": "Car Game",
+            "desired_deadline": null,
+            "source": "website",
+            "status": "contacted",
+            "captcha_verified": true,
+            "converted_client": 7
+        }
+    },
+    {
+        "model": "crm.proposal",
+        "pk": "4a780016-101e-4acb-9178-2cf85fa72843",
+        "fields": {
+            "created_at": "2026-07-22T13:37:31.478Z",
+            "updated_at": "2026-07-22T13:44:06.617Z",
+            "client": 4,
+            "lead": "4028f538-c908-47fc-89a5-3c0c47205324",
+            "title": "Website Development",
+            "scope": "we will also need a payment system",
+            "proposed_budget": "3000.00",
+            "proposed_start_date": "2026-07-22",
+            "proposed_end_date": "2026-08-05",
+            "technologies": "react.js , java, postgre",
+            "status": "accepted",
+            "linked_project": "9091d20b-b9e6-4ae0-92b7-96860d891f9d"
+        }
+    },
+    {
+        "model": "crm.proposal",
+        "pk": "5bda1690-35dd-408c-84e5-8642a7c4a4bb",
+        "fields": {
+            "created_at": "2026-07-17T18:36:50.011Z",
+            "updated_at": "2026-07-17T18:36:50.702Z",
+            "client": 1,
+            "lead": null,
+            "title": "Portal Test: Web Platform",
+            "scope": "Full-stack web platform with admin panel.",
+            "proposed_budget": "16000.00",
+            "proposed_start_date": "2026-07-25",
+            "proposed_end_date": "2026-10-26",
+            "technologies": "Django, React, PostgreSQL",
+            "status": "accepted",
+            "linked_project": "0934f375-872f-46f5-9dc2-9789ef7dc320"
+        }
+    },
+    {
+        "model": "crm.proposal",
+        "pk": "5f07d97a-a572-43c5-b323-a3f825939864",
+        "fields": {
+            "created_at": "2026-07-17T18:34:54.120Z",
+            "updated_at": "2026-07-17T18:34:54.120Z",
+            "client": 1,
+            "lead": null,
+            "title": "Portal Test: Web Platform",
+            "scope": "Full-stack web platform with admin panel.",
+            "proposed_budget": "20000.00",
+            "proposed_start_date": "2026-07-25",
+            "proposed_end_date": "2026-10-16",
+            "technologies": "Django, React, PostgreSQL",
+            "status": "sent",
+            "linked_project": null
+        }
+    },
+    {
+        "model": "crm.proposal",
+        "pk": "7f9fee6c-b494-486e-bf12-1ef481591259",
+        "fields": {
+            "created_at": "2026-07-22T16:26:26.151Z",
+            "updated_at": "2026-07-22T16:26:26.151Z",
+            "client": 4,
+            "lead": "4028f538-c908-47fc-89a5-3c0c47205324",
+            "title": "E-commerce",
+            "scope": "A fully functional system",
+            "proposed_budget": "45000.00",
+            "proposed_start_date": "2026-07-22",
+            "proposed_end_date": "2026-08-08",
+            "technologies": "react, node.js, postgre",
+            "status": "accepted",
+            "linked_project": "2ca0f032-8268-447c-9af4-acfe01144227"
+        }
+    },
+    {
+        "model": "crm.proposal",
+        "pk": "ab6aca87-c090-4e80-911f-6c7a510b5b9a",
+        "fields": {
+            "created_at": "2026-07-23T09:16:45.512Z",
+            "updated_at": "2026-07-23T09:16:45.512Z",
+            "client": 7,
+            "lead": "8d93a756-221f-4239-94fd-675e60411e64",
+            "title": "Car Game",
+            "scope": "A futuristic racing platform",
+            "proposed_budget": "70000.00",
+            "proposed_start_date": "2026-07-25",
+            "proposed_end_date": "2026-08-07",
+            "technologies": "Java, React.js , Postgre",
+            "status": "sent",
+            "linked_project": null
+        }
+    },
+    {
+        "model": "crm.proposal",
+        "pk": "b204b2f2-58ec-42a5-94fc-77961e7cd140",
+        "fields": {
+            "created_at": "2026-07-17T15:59:56.672Z",
+            "updated_at": "2026-07-17T15:59:56.672Z",
+            "client": 1,
+            "lead": null,
+            "title": "E-commerce Website Build",
+            "scope": "Full Shopify-based e-commerce platform with custom theme, payment integration, and admin dashboard.",
+            "proposed_budget": "15000.00",
+            "proposed_start_date": "2026-07-24",
+            "proposed_end_date": "2026-10-15",
+            "technologies": "Django, React, PostgreSQL, Stripe",
+            "status": "accepted",
+            "linked_project": "f9ce8a3a-6dd7-4ed2-92e5-1b0f6587ba7d"
+        }
+    },
+    {
+        "model": "crm.proposal",
+        "pk": "ba53ff47-d2a5-423e-b12e-929cf7578fca",
+        "fields": {
+            "created_at": "2026-07-22T19:34:05.039Z",
+            "updated_at": "2026-07-22T19:34:05.039Z",
+            "client": 4,
+            "lead": "4028f538-c908-47fc-89a5-3c0c47205324",
+            "title": "Health Tracker",
+            "scope": "A mobile application for health tracking",
+            "proposed_budget": "50000.00",
+            "proposed_start_date": "2026-08-01",
+            "proposed_end_date": "2026-09-05",
+            "technologies": "React.js, node,js",
+            "status": "accepted",
+            "linked_project": "ad8a7201-836c-4327-b1d3-1c728dabd1b4"
+        }
+    },
+    {
+        "model": "crm.proposal",
+        "pk": "cb5d7c28-470b-4d2c-a8e3-8e495a7fa5f2",
+        "fields": {
+            "created_at": "2026-07-17T18:14:57.326Z",
+            "updated_at": "2026-07-17T18:14:57.326Z",
+            "client": 1,
+            "lead": null,
+            "title": "Rejected Project",
+            "scope": "Something we do not want.",
+            "proposed_budget": "50000.00",
+            "proposed_start_date": "2026-07-25",
+            "proposed_end_date": "2026-10-16",
+            "technologies": "",
+            "status": "rejected",
+            "linked_project": null
+        }
+    },
+    {
+        "model": "crm.proposal",
+        "pk": "db820771-6714-471c-9155-2b39c81a4fe3",
+        "fields": {
+            "created_at": "2026-07-17T18:14:56.824Z",
+            "updated_at": "2026-07-17T18:14:57.181Z",
+            "client": 1,
+            "lead": null,
+            "title": "Negotiation Test Project",
+            "scope": "Build a mobile app with push notifications.",
+            "proposed_budget": "12000.00",
+            "proposed_start_date": "2026-07-25",
+            "proposed_end_date": "2026-10-26",
+            "technologies": "Flutter, Firebase",
+            "status": "accepted",
+            "linked_project": null
+        }
+    },
+    {
+        "model": "crm.proposalmessage",
+        "pk": "140e7a05-be2c-4ec3-ae30-9aa75c75bebd",
+        "fields": {
+            "created_at": "2026-07-22T13:40:14.494Z",
+            "updated_at": "2026-07-22T13:40:14.494Z",
+            "proposal": "4a780016-101e-4acb-9178-2cf85fa72843",
+            "author": [
+                "rakibulislamshakib570@gmail.com"
+            ],
+            "body": "Before starting the project we need to sit for a meeting to discuss about the project",
+            "message_type": "counter_offer",
+            "proposed_budget": "3000.00",
+            "proposed_start_date": "2026-07-22",
+            "proposed_end_date": "2026-08-05",
+            "proposed_scope": "we will also need a payment system",
+            "offer_status": "accepted"
+        }
+    },
+    {
+        "model": "crm.proposalmessage",
+        "pk": "863eb824-2224-4451-8374-8ffdd12288e7",
+        "fields": {
+            "created_at": "2026-07-17T18:36:50.619Z",
+            "updated_at": "2026-07-17T18:36:50.619Z",
+            "proposal": "5bda1690-35dd-408c-84e5-8642a7c4a4bb",
+            "author": [
+                "client@test.com"
+            ],
+            "body": "We were hoping for around 16k. Can we work with that?",
+            "message_type": "counter_offer",
+            "proposed_budget": "16000.00",
+            "proposed_start_date": "2026-07-25",
+            "proposed_end_date": "2026-10-26",
+            "proposed_scope": "",
+            "offer_status": "accepted"
+        }
+    },
+    {
+        "model": "crm.proposalmessage",
+        "pk": "8ca8247f-3de4-4f82-beac-b26dc38fde2e",
+        "fields": {
+            "created_at": "2026-07-17T18:14:57.478Z",
+            "updated_at": "2026-07-17T18:14:57.478Z",
+            "proposal": "cb5d7c28-470b-4d2c-a8e3-8e495a7fa5f2",
+            "author": [
+                "admin@technova.com"
+            ],
+            "body": "Budget too high for our needs.",
+            "message_type": "message",
+            "proposed_budget": null,
+            "proposed_start_date": null,
+            "proposed_end_date": null,
+            "proposed_scope": "",
+            "offer_status": "pending"
+        }
+    },
+    {
+        "model": "crm.proposalmessage",
+        "pk": "9cd004e2-24ae-49e2-ae86-189604e788ff",
+        "fields": {
+            "created_at": "2026-07-22T13:40:44.014Z",
+            "updated_at": "2026-07-22T13:40:44.014Z",
+            "proposal": "4a780016-101e-4acb-9178-2cf85fa72843",
+            "author": [
+                "rakibulislamshakib570@gmail.com"
+            ],
+            "body": "Hiii",
+            "message_type": "message",
+            "proposed_budget": null,
+            "proposed_start_date": null,
+            "proposed_end_date": null,
+            "proposed_scope": "",
+            "offer_status": "pending"
+        }
+    },
+    {
+        "model": "crm.proposalmessage",
+        "pk": "e2478fae-3b5a-4b9c-ae9c-d5c91369e174",
+        "fields": {
+            "created_at": "2026-07-17T18:14:57.096Z",
+            "updated_at": "2026-07-17T18:14:57.096Z",
+            "proposal": "db820771-6714-471c-9155-2b39c81a4fe3",
+            "author": [
+                "admin@technova.com"
+            ],
+            "body": "Can you do 12k? We need a bit more time.",
+            "message_type": "counter_offer",
+            "proposed_budget": "12000.00",
+            "proposed_start_date": "2026-07-25",
+            "proposed_end_date": "2026-10-26",
+            "proposed_scope": "Build a mobile app with push notifications.",
+            "offer_status": "accepted"
+        }
+    },
+    {
+        "model": "crm.clientprojectrequest",
+        "pk": "1360ed2b-6316-4f99-bed2-5f2a6b2fffaa",
+        "fields": {
+            "created_at": "2026-07-22T19:14:07.708Z",
+            "updated_at": "2026-07-22T19:37:21.700Z",
+            "client": 4,
+            "title": "Health Trakcer",
+            "description": "A mobile app for health tracking",
+            "desired_deadline": "2026-08-08",
+            "proposed_budget": "5000.00",
+            "status": "rejected"
+        }
+    },
+    {
+        "model": "crm.clientprojectrequest",
+        "pk": "90908580-1fe8-470e-9cc1-2072d074b0cc",
+        "fields": {
+            "created_at": "2026-07-22T19:11:22.931Z",
+            "updated_at": "2026-07-22T19:37:16.790Z",
+            "client": 4,
+            "title": "Health Tracker",
+            "description": "A mobile application for health tracking",
+            "desired_deadline": "2026-08-08",
+            "proposed_budget": "5000.00",
+            "status": "rejected"
+        }
+    },
+    {
+        "model": "crm.projectmessage",
+        "pk": "2adf7065-4abf-4186-8d7e-f9fab3d50364",
+        "fields": {
+            "created_at": "2026-07-22T19:58:44.527Z",
+            "updated_at": "2026-07-22T19:58:44.527Z",
+            "project": "2ca0f032-8268-447c-9af4-acfe01144227",
+            "author": [
+                "rakibulislamshakib570@gmail.com"
+            ],
+            "body": "what is the progress??",
+            "is_feature_request": false,
+            "is_read_by_staff": true
+        }
+    },
+    {
+        "model": "crm.projectmessage",
+        "pk": "43b16119-1753-4333-ac74-bae8f654ce8a",
+        "fields": {
+            "created_at": "2026-07-22T20:09:03.486Z",
+            "updated_at": "2026-07-22T20:09:03.486Z",
+            "project": "2ca0f032-8268-447c-9af4-acfe01144227",
+            "author": [
+                "rakibulislamshakib570@gmail.com"
+            ],
+            "body": "what about hr progress?",
+            "is_feature_request": false,
+            "is_read_by_staff": true
+        }
+    },
+    {
+        "model": "crm.projectmessage",
+        "pk": "60a51372-da13-486e-8830-1669a1cf3131",
+        "fields": {
+            "created_at": "2026-07-22T20:03:39.334Z",
+            "updated_at": "2026-07-22T20:03:39.334Z",
+            "project": "2ca0f032-8268-447c-9af4-acfe01144227",
+            "author": [
+                "admin@technova.com"
+            ],
+            "body": "don't worry we have started the work",
+            "is_feature_request": false,
+            "is_read_by_staff": true
+        }
+    },
+    {
+        "model": "crm.projectmessage",
+        "pk": "81bd0780-eeca-438e-a417-2d2c7b3f5a45",
+        "fields": {
+            "created_at": "2026-07-22T20:07:33.200Z",
+            "updated_at": "2026-07-22T20:07:33.200Z",
+            "project": "2ca0f032-8268-447c-9af4-acfe01144227",
+            "author": [
+                "rakibulislamshakib570@gmail.com"
+            ],
+            "body": "what about the progress??",
+            "is_feature_request": false,
+            "is_read_by_staff": true
+        }
+    },
+    {
+        "model": "crm.projectmessage",
+        "pk": "bf72314d-3c20-4c04-86c2-f6a6e279f1bd",
+        "fields": {
+            "created_at": "2026-07-22T20:04:15.647Z",
+            "updated_at": "2026-07-22T20:04:15.647Z",
+            "project": "2ca0f032-8268-447c-9af4-acfe01144227",
+            "author": [
+                "rakibulislamshakib570@gmail.com"
+            ],
+            "body": "okkk",
+            "is_feature_request": false,
+            "is_read_by_staff": true
+        }
+    },
+    {
+        "model": "crm.projectmessage",
+        "pk": "c3f22ba3-9d4e-41b9-b338-9c1c93fd1ca7",
+        "fields": {
+            "created_at": "2026-07-22T20:13:38.169Z",
+            "updated_at": "2026-07-22T20:13:38.169Z",
+            "project": "2ca0f032-8268-447c-9af4-acfe01144227",
+            "author": [
+                "admin@technova.com"
+            ],
+            "body": "System works",
+            "is_feature_request": false,
+            "is_read_by_staff": true
+        }
+    },
+    {
+        "model": "crm.projectmessage",
+        "pk": "eaf6ea0c-d6e7-439f-9c3a-ae5ee3f5a9d0",
+        "fields": {
+            "created_at": "2026-07-22T20:07:43.466Z",
+            "updated_at": "2026-07-22T20:07:43.466Z",
+            "project": "2ca0f032-8268-447c-9af4-acfe01144227",
+            "author": [
+                "rakibulislamshakib570@gmail.com"
+            ],
+            "body": "??",
+            "is_feature_request": false,
+            "is_read_by_staff": true
+        }
+    },
+    {
+        "model": "crm.projectmessage",
+        "pk": "ed077716-9fb8-484b-a09e-60f317f773e5",
+        "fields": {
+            "created_at": "2026-07-22T20:09:18.168Z",
+            "updated_at": "2026-07-22T20:09:18.168Z",
+            "project": "2ca0f032-8268-447c-9af4-acfe01144227",
+            "author": [
+                "rakibulislamshakib570@gmail.com"
+            ],
+            "body": "hi",
+            "is_feature_request": false,
+            "is_read_by_staff": true
+        }
+    },
+    {
+        "model": "marketing.service",
+        "pk": 1,
+        "fields": {
+            "is_published": true,
+            "display_order": 1,
+            "created_at": "2026-07-18T09:31:12.236Z",
+            "updated_at": "2026-07-18T09:31:12.237Z",
+            "title": "Web Development",
+            "slug": "web-development",
+            "icon": "code",
+            "short_description": "Custom web apps built with modern tech.",
+            "full_description": "Full-stack web development...",
+            "features": [
+                "Django backend",
+                "React frontend",
+                "REST APIs"
+            ]
+        }
+    },
+    {
+        "model": "marketing.service",
+        "pk": 2,
+        "fields": {
+            "is_published": true,
+            "display_order": 2,
+            "created_at": "2026-07-18T09:31:12.243Z",
+            "updated_at": "2026-07-18T09:31:12.243Z",
+            "title": "Mobile Apps",
+            "slug": "mobile-apps",
+            "icon": "mobile",
+            "short_description": "iOS and Android apps.",
+            "full_description": "Cross-platform mobile development...",
+            "features": [
+                "Flutter",
+                "Native iOS/Android"
+            ]
+        }
+    },
+    {
+        "model": "marketing.service",
+        "pk": 3,
+        "fields": {
+            "is_published": false,
+            "display_order": 0,
+            "created_at": "2026-07-18T09:31:12.244Z",
+            "updated_at": "2026-07-18T09:31:12.244Z",
+            "title": "Draft Service",
+            "slug": "draft",
+            "icon": "draft",
+            "short_description": "Not ready yet.",
+            "full_description": "Work in progress.",
+            "features": []
+        }
+    },
+    {
+        "model": "marketing.service",
+        "pk": 4,
+        "fields": {
+            "is_published": true,
+            "display_order": 3,
+            "created_at": "2026-07-21T15:34:15.480Z",
+            "updated_at": "2026-07-21T15:34:15.480Z",
+            "title": "Cloud & DevOps",
+            "slug": "cloud-devops",
+            "icon": "cloud",
+            "short_description": "Scalable cloud infrastructure, CI/CD pipelines, and container orchestration.",
+            "full_description": "We architect resilient cloud platforms on AWS, Azure, and GCP with automated deployment pipelines, Kubernetes orchestration, and zero-downtime deployments.",
+            "features": [
+                "AWS / Azure / GCP",
+                "Kubernetes & Docker",
+                "CI/CD Pipelines",
+                "Infrastructure as Code"
+            ]
+        }
+    },
+    {
+        "model": "marketing.service",
+        "pk": 5,
+        "fields": {
+            "is_published": true,
+            "display_order": 4,
+            "created_at": "2026-07-21T15:34:15.489Z",
+            "updated_at": "2026-07-21T15:34:15.489Z",
+            "title": "AI & Machine Learning",
+            "slug": "ai-machine-learning",
+            "icon": "ai",
+            "short_description": "Intelligent systems powered by ML, NLP, and computer vision.",
+            "full_description": "From predictive analytics to generative AI, we build intelligent systems that learn from your data. Our ML solutions include recommendation engines, NLP, computer vision, and LLM-powered assistants.",
+            "features": [
+                "Predictive Analytics",
+                "NLP & Chatbots",
+                "Computer Vision",
+                "LLM Integration"
+            ]
+        }
+    },
+    {
+        "model": "marketing.service",
+        "pk": 6,
+        "fields": {
+            "is_published": true,
+            "display_order": 5,
+            "created_at": "2026-07-21T15:34:15.491Z",
+            "updated_at": "2026-07-21T15:34:15.491Z",
+            "title": "UI/UX Design",
+            "slug": "ui-ux-design",
+            "icon": "design",
+            "short_description": "Human-centered design that delights users and drives conversions.",
+            "full_description": "We craft beautiful, intuitive interfaces backed by user research, wireframing, prototyping, and usability testing. Every pixel is intentional and every interaction feels effortless.",
+            "features": [
+                "User Research",
+                "Wireframing & Prototyping",
+                "Design Systems",
+                "Usability Testing"
+            ]
+        }
+    },
+    {
+        "model": "marketing.service",
+        "pk": 7,
+        "fields": {
+            "is_published": true,
+            "display_order": 6,
+            "created_at": "2026-07-21T15:34:15.492Z",
+            "updated_at": "2026-07-21T15:34:15.492Z",
+            "title": "IT Consultancy",
+            "slug": "it-consultancy",
+            "icon": "shield",
+            "short_description": "Strategic technology consulting to future-proof your business.",
+            "full_description": "Our consultants help you navigate digital transformation, choose the right tech stack, optimize architecture, and align technology with business goals for maximum ROI.",
+            "features": [
+                "Digital Transformation",
+                "Tech Stack Assessment",
+                "Architecture Review",
+                "Security Audits"
+            ]
+        }
+    },
+    {
+        "model": "marketing.service",
+        "pk": 8,
+        "fields": {
+            "is_published": true,
+            "display_order": 7,
+            "created_at": "2026-07-21T15:34:15.494Z",
+            "updated_at": "2026-07-21T15:34:15.494Z",
+            "title": "Quality Assurance",
+            "slug": "quality-assurance",
+            "icon": "shield",
+            "short_description": "Comprehensive testing to ship bug-free software with confidence.",
+            "full_description": "Automated and manual testing across unit, integration, end-to-end, and performance testing. We ensure your software is reliable, secure, and performant at scale.",
+            "features": [
+                "Automated Testing",
+                "Performance Testing",
+                "Security Testing",
+                "CI Integration"
+            ]
+        }
+    },
+    {
+        "model": "marketing.service",
+        "pk": 9,
+        "fields": {
+            "is_published": true,
+            "display_order": 8,
+            "created_at": "2026-07-21T15:34:15.496Z",
+            "updated_at": "2026-07-21T15:34:15.496Z",
+            "title": "Digital Marketing",
+            "slug": "digital-marketing",
+            "icon": "trending",
+            "short_description": "Data-driven marketing strategies that grow your audience and revenue.",
+            "full_description": "SEO, content marketing, paid acquisition, and analytics dashboards. We turn data into growth with measurable, ROI-focused campaigns.",
+            "features": [
+                "SEO Optimization",
+                "Content Strategy",
+                "Paid Acquisition",
+                "Analytics Dashboards"
+            ]
+        }
+    },
+    {
+        "model": "marketing.testimonial",
+        "pk": 1,
+        "fields": {
+            "is_published": false,
+            "display_order": 0,
+            "created_at": "2026-07-18T09:31:12.246Z",
+            "updated_at": "2026-07-18T09:31:12.246Z",
+            "client_name": "John Smith",
+            "client_title": "CTO",
+            "company": "Acme Corp",
+            "quote": "TechNova delivered beyond expectations!",
+            "rating": 5,
+            "avatar_url": ""
+        }
+    },
+    {
+        "model": "marketing.testimonial",
+        "pk": 2,
+        "fields": {
+            "is_published": true,
+            "display_order": 1,
+            "created_at": "2026-07-21T16:06:14.957Z",
+            "updated_at": "2026-07-21T16:06:14.957Z",
+            "client_name": "Sarah Chen",
+            "client_title": "CEO",
+            "company": "FinTech Innovations",
+            "quote": "TechNova transformed our entire payment infrastructure. Their team reduced our latency by 88% and the platform now handles 5,000+ concurrent users flawlessly.",
+            "rating": 5,
+            "avatar_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop"
+        }
+    },
+    {
+        "model": "marketing.testimonial",
+        "pk": 3,
+        "fields": {
+            "is_published": true,
+            "display_order": 2,
+            "created_at": "2026-07-21T16:06:14.960Z",
+            "updated_at": "2026-07-21T16:06:14.960Z",
+            "client_name": "Michael Rodriguez",
+            "client_title": "CTO",
+            "company": "ShopVerse",
+            "quote": "The level of attention to detail is unmatched. They delivered ahead of schedule and our flash sale revenue increased 300% year-over-year.",
+            "rating": 5,
+            "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop"
+        }
+    },
+    {
+        "model": "marketing.testimonial",
+        "pk": 4,
+        "fields": {
+            "is_published": true,
+            "display_order": 3,
+            "created_at": "2026-07-21T16:06:14.962Z",
+            "updated_at": "2026-07-21T16:06:14.962Z",
+            "client_name": "Dr. Jessica Williams",
+            "client_title": "Founder",
+            "company": "MediCare Plus",
+            "quote": "Working with TechNova was a game-changer. They built a HIPAA-compliant platform serving 50,000+ patients with zero security incidents in 18 months.",
+            "rating": 5,
+            "avatar_url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop"
+        }
+    },
+    {
+        "model": "marketing.testimonial",
+        "pk": 5,
+        "fields": {
+            "is_published": true,
+            "display_order": 4,
+            "created_at": "2026-07-21T16:06:14.963Z",
+            "updated_at": "2026-07-21T16:06:14.963Z",
+            "client_name": "Daniel Foster",
+            "client_title": "VP of Engineering",
+            "company": "DataGenius",
+            "quote": "Their AI team built a real-time analytics pipeline processing 1.2M+ events daily with 94% predictive accuracy. Absolutely stellar work.",
+            "rating": 5,
+            "avatar_url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop"
+        }
+    },
+    {
+        "model": "marketing.testimonial",
+        "pk": 6,
+        "fields": {
+            "is_published": true,
+            "display_order": 5,
+            "created_at": "2026-07-21T16:06:14.964Z",
+            "updated_at": "2026-07-21T16:06:14.964Z",
+            "client_name": "Priya Sharma",
+            "client_title": "Product Director",
+            "company": "CloudScale",
+            "quote": "From strategy to deployment, TechNova delivered a scalable cloud platform that cut our infrastructure costs by 40% while doubling performance.",
+            "rating": 5,
+            "avatar_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop"
+        }
+    },
+    {
+        "model": "marketing.testimonial",
+        "pk": 8,
+        "fields": {
+            "is_published": true,
+            "display_order": 6,
+            "created_at": "2026-07-21T16:06:48.543Z",
+            "updated_at": "2026-07-21T16:06:48.543Z",
+            "client_name": "Alexander Kovac",
+            "client_title": "Head of Digital",
+            "company": "NeoBank",
+            "quote": "TechNova's security-first approach gave us SOC 2 compliance in record time. Their zero-trust architecture passed every penetration test on the first try.",
+            "rating": 5,
+            "avatar_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop"
+        }
+    },
+    {
+        "model": "marketing.testimonial",
+        "pk": 9,
+        "fields": {
+            "is_published": true,
+            "display_order": 7,
+            "created_at": "2026-07-21T16:06:48.551Z",
+            "updated_at": "2026-07-21T16:06:48.551Z",
+            "client_name": "Emma Lindqvist",
+            "client_title": "COO",
+            "company": "GreenGrid Energy",
+            "quote": "They built an IoT dashboard monitoring 12,000+ smart meters in real time. We cut energy waste by 35% across our entire grid network.",
+            "rating": 5,
+            "avatar_url": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=200&h=200&fit=crop"
+        }
+    },
+    {
+        "model": "marketing.testimonial",
+        "pk": 10,
+        "fields": {
+            "is_published": true,
+            "display_order": 8,
+            "created_at": "2026-07-21T16:06:48.553Z",
+            "updated_at": "2026-07-21T16:06:48.553Z",
+            "client_name": "Rajesh Patel",
+            "client_title": "Chief Technology Officer",
+            "company": "LogiFlow",
+            "quote": "The route optimization engine TechNova built saves us 18,000 gallons of fuel monthly. ROI was achieved in just 4 months. Outstanding engineering.",
+            "rating": 5,
+            "avatar_url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop"
+        }
+    },
+    {
+        "model": "marketing.testimonial",
+        "pk": 11,
+        "fields": {
+            "is_published": true,
+            "display_order": 9,
+            "created_at": "2026-07-21T16:06:48.555Z",
+            "updated_at": "2026-07-21T16:06:48.555Z",
+            "client_name": "Sofia Marchetti",
+            "client_title": "VP of Product",
+            "company": "EduSphere",
+            "quote": "Our learning platform went from 0 to 250,000 active learners in 8 months. TechNova's UX team created an experience students genuinely love using.",
+            "rating": 5,
+            "avatar_url": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=200&h=200&fit=crop"
+        }
+    },
+    {
+        "model": "marketing.testimonial",
+        "pk": 12,
+        "fields": {
+            "is_published": true,
+            "display_order": 10,
+            "created_at": "2026-07-21T16:06:48.556Z",
+            "updated_at": "2026-07-21T16:06:48.556Z",
+            "client_name": "James O'Brien",
+            "client_title": "Founder & CEO",
+            "company": "PropTech Hub",
+            "quote": "TechNova turned our vague vision into a polished marketplace handling $2M+ in monthly transactions. The 3D property tours they built are industry-leading.",
+            "rating": 5,
+            "avatar_url": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=200&h=200&fit=crop"
+        }
+    },
+    {
+        "model": "marketing.testimonial",
+        "pk": 13,
+        "fields": {
+            "is_published": true,
+            "display_order": 11,
+            "created_at": "2026-07-21T16:06:48.558Z",
+            "updated_at": "2026-07-21T16:06:48.558Z",
+            "client_name": "Lena Hoffmann",
+            "client_title": "Director of Innovation",
+            "company": "AutoMotive AI",
+            "quote": "Their computer vision team achieved 99.2% defect detection accuracy on our assembly line. We reduced quality control costs by 60%. Truly impressive ML work.",
+            "rating": 5,
+            "avatar_url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop"
+        }
+    },
+    {
+        "model": "marketing.testimonial",
+        "pk": 14,
+        "fields": {
+            "is_published": true,
+            "display_order": 12,
+            "created_at": "2026-07-21T16:06:48.560Z",
+            "updated_at": "2026-07-21T16:06:48.560Z",
+            "client_name": "Marcus Tanaka",
+            "client_title": "Chief Information Officer",
+            "company": "HealthBridge",
+            "quote": "TechNova migrated our legacy systems to a microservices architecture with zero downtime. Patient appointment wait times dropped by 45% post-launch.",
+            "rating": 5,
+            "avatar_url": "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?w=200&h=200&fit=crop"
+        }
+    },
+    {
+        "model": "marketing.casestudy",
+        "pk": 1,
+        "fields": {
+            "is_published": true,
+            "display_order": 0,
+            "created_at": "2026-07-18T09:31:12.249Z",
+            "updated_at": "2026-07-18T09:31:12.249Z",
+            "title": "E-commerce Platform",
+            "slug": "ecommerce-platform",
+            "client_name": "ShopRight",
+            "summary": "Full e-commerce rebuild.",
+            "challenge": "Legacy system with slow performance.",
+            "solution": "Rebuilt with Django + React.",
+            "results": "3x faster, 40% more conversions.",
+            "cover_image_url": "/images/case-studies/ecommerce.png",
+            "technologies": [
+                "Django",
+                "React",
+                "PostgreSQL"
+            ],
+            "project_url": ""
+        }
+    },
+    {
+        "model": "marketing.casestudy",
+        "pk": 2,
+        "fields": {
+            "is_published": true,
+            "display_order": 1,
+            "created_at": "2026-07-21T15:34:15.500Z",
+            "updated_at": "2026-07-21T15:34:15.500Z",
+            "title": "FinTech Transformation",
+            "slug": "fintech-transformation",
+            "client_name": "PayFlow Inc.",
+            "summary": "Modernized payment processing platform, reducing latency by 40% and doubling throughput.",
+            "challenge": "PayFlow's legacy monolith struggled with 500ms+ latency during peak hours, causing transaction timeouts and customer churn. The system could not scale beyond 500 concurrent users.",
+            "solution": "We rebuilt the core payment engine as a microservices architecture on AWS with event-driven processing, Redis caching, and auto-scaling Kubernetes clusters. Implemented a real-time fraud detection layer using ML.",
+            "results": "Latency reduced from 500ms to 60ms (88% improvement). Throughput increased from 500 to 5,000+ concurrent users. Fraud detection accuracy improved to 99.2%.",
+            "cover_image_url": "/images/case-studies/fintech.png",
+            "technologies": [
+                "Django",
+                "React",
+                "AWS",
+                "Kubernetes",
+                "Redis",
+                "PostgreSQL"
+            ],
+            "project_url": ""
+        }
+    },
+    {
+        "model": "marketing.casestudy",
+        "pk": 3,
+        "fields": {
+            "is_published": true,
+            "display_order": 2,
+            "created_at": "2026-07-21T15:34:15.503Z",
+            "updated_at": "2026-07-21T15:34:15.503Z",
+            "title": "E-Commerce Scale-Up",
+            "slug": "ecommerce-scale-up",
+            "client_name": "ShopVerse",
+            "summary": "Built real-time inventory system handling 10k+ concurrent users with zero downtime.",
+            "challenge": "ShopVerse flash sales crashed their servers every time. The existing system could not handle traffic spikes, leading to lost revenue and frustrated customers during peak shopping events.",
+            "solution": "Architected a distributed inventory system with event sourcing, real-time stock updates via WebSockets, and a queue-based order processing pipeline. Added CDN caching and edge rendering for product pages.",
+            "results": "Sustained 15,000+ concurrent users during flash sales. Page load time dropped from 4s to 0.8s. Revenue from flash sales increased 300% year-over-year.",
+            "cover_image_url": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+            "technologies": [
+                "Next.js",
+                "Node.js",
+                "PostgreSQL",
+                "RabbitMQ",
+                "WebSocket",
+                "Cloudflare"
+            ],
+            "project_url": ""
+        }
+    },
+    {
+        "model": "marketing.casestudy",
+        "pk": 4,
+        "fields": {
+            "is_published": true,
+            "display_order": 3,
+            "created_at": "2026-07-21T15:34:15.505Z",
+            "updated_at": "2026-07-21T15:34:15.505Z",
+            "title": "Healthcare Portal",
+            "slug": "healthcare-portal",
+            "client_name": "MediCare Plus",
+            "summary": "HIPAA-compliant patient management system serving 50k+ users with telemedicine.",
+            "challenge": "MediCare Plus needed a secure, compliant patient portal that integrated scheduling, telemedicine, and electronic health records while meeting strict HIPAA requirements.",
+            "solution": "Built an end-to-end encrypted patient platform with role-based access control, integrated video consultations, appointment scheduling, and a FHIR-compliant EHR system. Deployed on HIPAA-compliant cloud infrastructure.",
+            "results": "50,000+ active patients onboarded. Telemedicine visits increased 500%. Average appointment wait time reduced from 8 days to 2 days. Zero security incidents in 18 months.",
+            "cover_image_url": "/images/case-studies/healthcare.png",
+            "technologies": [
+                "Django",
+                "React",
+                "WebRTC",
+                "PostgreSQL",
+                "AWS HIPAA",
+                "Twilio"
+            ],
+            "project_url": ""
+        }
+    },
+    {
+        "model": "marketing.casestudy",
+        "pk": 5,
+        "fields": {
+            "is_published": true,
+            "display_order": 4,
+            "created_at": "2026-07-21T15:34:15.507Z",
+            "updated_at": "2026-07-21T15:34:15.507Z",
+            "title": "AI-Powered Analytics Platform",
+            "slug": "ai-analytics-platform",
+            "client_name": "DataGenius",
+            "summary": "ML-driven business intelligence platform processing 1M+ events per day in real-time.",
+            "challenge": "DataGenius needed a real-time analytics platform that could process millions of data points daily, provide predictive insights, and render interactive dashboards without lag.",
+            "solution": "Built a streaming analytics pipeline with Kafka, Spark, and ClickHouse. Implemented ML models for anomaly detection and forecasting. Created customizable dashboards with D3.js and real-time WebSocket updates.",
+            "results": "Processes 1.2M+ events/day with sub-second latency. Predictive models achieve 94% accuracy. Customer retention improved by 45% with proactive insights.",
+            "cover_image_url": "/images/case-studies/analytics.png",
+            "technologies": [
+                "Python",
+                "Apache Kafka",
+                "Spark",
+                "ClickHouse",
+                "React",
+                "D3.js",
+                "TensorFlow"
+            ],
+            "project_url": ""
+        }
+    },
+    {
+        "model": "marketing.teammember",
+        "pk": 1,
+        "fields": {
+            "is_published": false,
+            "display_order": 0,
+            "created_at": "2026-07-18T09:31:12.253Z",
+            "updated_at": "2026-07-18T09:31:12.253Z",
+            "name": "Jane Doe",
+            "role": "Lead Developer",
+            "bio": "10 years of experience.",
+            "photo_url": "",
+            "linkedin_url": "",
+            "github_url": ""
+        }
+    },
+    {
+        "model": "marketing.teammember",
+        "pk": 2,
+        "fields": {
+            "is_published": true,
+            "display_order": 1,
+            "created_at": "2026-07-21T15:55:54.687Z",
+            "updated_at": "2026-07-21T15:55:54.687Z",
+            "name": "Alex Carter",
+            "role": "CEO & Founder",
+            "bio": "Visionary tech entrepreneur with 15+ years building software that scales.",
+            "photo_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+            "linkedin_url": "https://linkedin.com/in/alexcarter",
+            "github_url": "https://github.com/alexcarter"
+        }
+    },
+    {
+        "model": "marketing.teammember",
+        "pk": 3,
+        "fields": {
+            "is_published": true,
+            "display_order": 2,
+            "created_at": "2026-07-21T15:55:54.690Z",
+            "updated_at": "2026-07-21T15:55:54.690Z",
+            "name": "Maya Patel",
+            "role": "CTO & Co-founder",
+            "bio": "Full-stack architect who built infrastructure handling millions of requests daily.",
+            "photo_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
+            "linkedin_url": "https://linkedin.com/in/mayapatel",
+            "github_url": "https://github.com/mayapatel"
+        }
+    },
+    {
+        "model": "marketing.teammember",
+        "pk": 4,
+        "fields": {
+            "is_published": true,
+            "display_order": 3,
+            "created_at": "2026-07-21T15:55:54.691Z",
+            "updated_at": "2026-07-21T15:55:54.691Z",
+            "name": "David Kim",
+            "role": "Lead Product Manager",
+            "bio": "Product strategist passionate about building products users genuinely love.",
+            "photo_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
+            "linkedin_url": "https://linkedin.com/in/davidkim",
+            "github_url": ""
+        }
+    },
+    {
+        "model": "marketing.teammember",
+        "pk": 5,
+        "fields": {
+            "is_published": true,
+            "display_order": 4,
+            "created_at": "2026-07-21T15:55:54.693Z",
+            "updated_at": "2026-07-21T15:55:54.693Z",
+            "name": "Sarah Johnson",
+            "role": "Head of Design",
+            "bio": "Award-winning designer specializing in user-centered design systems.",
+            "photo_url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
+            "linkedin_url": "https://linkedin.com/in/sarahjohnson",
+            "github_url": ""
+        }
+    },
+    {
+        "model": "marketing.teammember",
+        "pk": 6,
+        "fields": {
+            "is_published": true,
+            "display_order": 5,
+            "created_at": "2026-07-21T15:55:54.694Z",
+            "updated_at": "2026-07-21T15:55:54.694Z",
+            "name": "Marcus Chen",
+            "role": "Senior ML Engineer",
+            "bio": "AI specialist building intelligent systems with predictive analytics and NLP.",
+            "photo_url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
+            "linkedin_url": "https://linkedin.com/in/marcuschen",
+            "github_url": "https://github.com/marcuschen"
+        }
+    },
+    {
+        "model": "marketing.teammember",
+        "pk": 7,
+        "fields": {
+            "is_published": true,
+            "display_order": 6,
+            "created_at": "2026-07-21T15:55:54.696Z",
+            "updated_at": "2026-07-21T15:55:54.696Z",
+            "name": "Elena Rodriguez",
+            "role": "DevOps Lead",
+            "bio": "Cloud architect automating deployments with Kubernetes and zero-downtime CI/CD.",
+            "photo_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
+            "linkedin_url": "https://linkedin.com/in/elenarodriguez",
+            "github_url": "https://github.com/elenar"
+        }
     }
-},
-{
-    "model": "accounts.user",
-    "fields": {
-        "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$QjR2cENZUnozRlVqY3NTanVuMEkxZQ$kFkScFYIJ7ZMnHc6upjuZ1agOD6FxZcjpKF9BUWD0gk",
-        "last_login": "2026-07-22T14:37:13.722Z",
-        "is_superuser": true,
-        "email": "admin@technova.com",
-        "first_name": "Tech",
-        "last_name": "Nova",
-        "role": "admin",
-        "is_staff": true,
-        "is_active": true,
-        "date_joined": "2026-07-17T09:41:39.124Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "accounts.user",
-    "fields": {
-        "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$Q1N0bmNadFFBa3ZPUFZ2bjc2ZVRhbQ$PrFAQXwOKH6hmInFAWICQdtILMh5NkIaxta72nSQUE8",
-        "last_login": null,
-        "is_superuser": false,
-        "email": "client@test.com",
-        "first_name": "",
-        "last_name": "",
-        "role": "client",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-07-17T14:38:23.167Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "accounts.user",
-    "fields": {
-        "password": "pbkdf2_sha256$1200000$1LbYFLFfaoWBBFMN7Im5nv$oBapxT4HS619aI7g0UQMrb1uSiyqUBv0Eaw7uaQ8cs4=",
-        "last_login": null,
-        "is_superuser": false,
-        "email": "john.carter@example.com",
-        "first_name": "John",
-        "last_name": "",
-        "role": "client",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-07-17T15:18:04.379Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "accounts.user",
-    "fields": {
-        "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$SklsM3hHdVRxMHBzQ2FHSllEbkMycg$Q1a1bup86OkWfvSKGw26EY07s82qVLW75DNcd1YfEfE",
-        "last_login": null,
-        "is_superuser": false,
-        "email": "celeryasync@example.com",
-        "first_name": "Celery",
-        "last_name": "",
-        "role": "client",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-07-18T09:45:49.603Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "accounts.user",
-    "fields": {
-        "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$aVFKbzdnSVhMcEhVNDUzU2dSODBXZw$f+7Vk4X0hzOfQCV2u7uM0pdzv6c9Xmn5snldSbOr74o",
-        "last_login": null,
-        "is_superuser": false,
-        "email": "rakibulislamshakib570@gmail.com",
-        "first_name": "Rakibul",
-        "last_name": "",
-        "role": "client",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-07-21T16:49:13.480Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "accounts.user",
-    "fields": {
-        "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$UHlUTFlPZmxEa0wybGV1M3NYTG9sWg$wJhV7FB3iMmGpcrFz3V41f2/DDxxbHSPRG3wOvI4Re0",
-        "last_login": null,
-        "is_superuser": false,
-        "email": "21303063@iubat.edu",
-        "first_name": "Rakibul",
-        "last_name": "Islam",
-        "role": "employee",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-07-21T19:26:53.014Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "accounts.user",
-    "fields": {
-        "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$VGFyaTRaRHlhbVZRVDhHUmN1RDdDSA$njIDuhl/Ha+Eiy78lwQ0jHyVv1dIOKezVFUtHjETCoM",
-        "last_login": null,
-        "is_superuser": false,
-        "email": "asahadhasan@gmail.com",
-        "first_name": "Ahad",
-        "last_name": "Hasan",
-        "role": "employee",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-07-22T09:30:43.664Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "accounts.user",
-    "fields": {
-        "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$Mk1tbWM1QlhZVElvRGtlU2JzRkxaRw$o4mhSYznl+a6jGQcOKjvfw4hThJN1LOxRAjA2V4bc8g",
-        "last_login": null,
-        "is_superuser": false,
-        "email": "rakibul19shakib@gmail.com",
-        "first_name": "Choton",
-        "last_name": "Ahmed",
-        "role": "employee",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-07-22T09:32:58.881Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "accounts.user",
-    "fields": {
-        "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$M0pVbHJYVXZnYndXck9EV0hVR1FrSA$b1e8PPnVmgSZDAuBC778ksC6EaW1cNx4EtK3I2uGUQI",
-        "last_login": null,
-        "is_superuser": false,
-        "email": "tuhin69@yopmail.com",
-        "first_name": "Taufiq",
-        "last_name": "Hasan",
-        "role": "employee",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-07-22T09:34:36.008Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "accounts.user",
-    "fields": {
-        "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$MTJJc3FvdVFEVWM0eFZUcDJEaUlHYg$DBvsHT0zzvEVvW8a9vDr6CEzKs/MOQDlUuAceqWmq8U",
-        "last_login": null,
-        "is_superuser": false,
-        "email": "radmim@yopmail.com",
-        "first_name": "Radowan",
-        "last_name": "Ahmed",
-        "role": "employee",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-07-22T09:35:50.644Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "accounts.user",
-    "fields": {
-        "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$cU5sV2dwbVkzaW5SMXBHeFZRMTNGZw$4xR8E6ddvkheGbxxTf75Asvsvw4w5WRkpeTtJKUy1FQ",
-        "last_login": null,
-        "is_superuser": false,
-        "email": "maruf69@yopmail.com",
-        "first_name": "Maruf",
-        "last_name": "Hossain",
-        "role": "employee",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-07-22T09:37:24.139Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "accounts.user",
-    "fields": {
-        "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$NmtUMGhzazVvVVFmNTRrUE1OZEdIbQ$LYUhFiQT9YVhSp0bodDi0Gf1vkxw4nxCnS5JAlsW210",
-        "last_login": null,
-        "is_superuser": false,
-        "email": "celerytest2@example.com",
-        "first_name": "Celery",
-        "last_name": "",
-        "role": "client",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-07-22T19:36:04.726Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "accounts.user",
-    "fields": {
-        "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$Q0RUTEJyNnV2QkxXRUh0UURZWWtPdA$oe4Y2W2tnfyzOst0AKNwZIshLlVx+XGzqLIbeEqJGG4",
-        "last_login": null,
-        "is_superuser": false,
-        "email": "sajid@yopmail.com",
-        "first_name": "sajid",
-        "last_name": "",
-        "role": "client",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-07-22T20:18:41.666Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "accounts.user",
-    "fields": {
-        "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$bU0xZnIwOHhpcWkwZkU4Rk50dFJQbw$HQNRkYCGhPa0bKhZv8FN9uRk2f4YT6JtSfepCIoY/NE",
-        "last_login": null,
-        "is_superuser": false,
-        "email": "alamin@yopmail.com",
-        "first_name": "Alamin",
-        "last_name": "",
-        "role": "client",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2026-07-23T09:15:50.725Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "accounts.clientprofile",
-    "pk": 1,
-    "fields": {
-        "user": [
-            "client@test.com"
-        ],
-        "company_name": "Acme Corp",
-        "industry": "Retail",
-        "billing_address": ""
-    }
-},
-{
-    "model": "accounts.clientprofile",
-    "pk": 2,
-    "fields": {
-        "user": [
-            "john.carter@example.com"
-        ],
-        "company_name": "Carter Industries",
-        "industry": "",
-        "billing_address": ""
-    }
-},
-{
-    "model": "accounts.clientprofile",
-    "pk": 3,
-    "fields": {
-        "user": [
-            "celeryasync@example.com"
-        ],
-        "company_name": "AsyncCo",
-        "industry": "",
-        "billing_address": ""
-    }
-},
-{
-    "model": "accounts.clientprofile",
-    "pk": 4,
-    "fields": {
-        "user": [
-            "rakibulislamshakib570@gmail.com"
-        ],
-        "company_name": "Softech",
-        "industry": "",
-        "billing_address": ""
-    }
-},
-{
-    "model": "accounts.clientprofile",
-    "pk": 5,
-    "fields": {
-        "user": [
-            "celerytest2@example.com"
-        ],
-        "company_name": "TestCo",
-        "industry": "",
-        "billing_address": ""
-    }
-},
-{
-    "model": "accounts.clientprofile",
-    "pk": 6,
-    "fields": {
-        "user": [
-            "sajid@yopmail.com"
-        ],
-        "company_name": "Ghorar Dim",
-        "industry": "",
-        "billing_address": ""
-    }
-},
-{
-    "model": "accounts.clientprofile",
-    "pk": 7,
-    "fields": {
-        "user": [
-            "alamin@yopmail.com"
-        ],
-        "company_name": "Almo",
-        "industry": "",
-        "billing_address": ""
-    }
-},
-{
-    "model": "accounts.employeeprofile",
-    "pk": 1,
-    "fields": {
-        "user": [
-            "21303063@iubat.edu"
-        ],
-        "department": "Fintech",
-        "hire_date": null
-    }
-},
-{
-    "model": "accounts.employeeprofile",
-    "pk": 2,
-    "fields": {
-        "user": [
-            "asahadhasan@gmail.com"
-        ],
-        "department": "HealthTech",
-        "hire_date": null
-    }
-},
-{
-    "model": "accounts.employeeprofile",
-    "pk": 3,
-    "fields": {
-        "user": [
-            "rakibul19shakib@gmail.com"
-        ],
-        "department": "PropTech",
-        "hire_date": null
-    }
-},
-{
-    "model": "accounts.employeeprofile",
-    "pk": 4,
-    "fields": {
-        "user": [
-            "tuhin69@yopmail.com"
-        ],
-        "department": "EdTech",
-        "hire_date": null
-    }
-},
-{
-    "model": "accounts.employeeprofile",
-    "pk": 5,
-    "fields": {
-        "user": [
-            "radmim@yopmail.com"
-        ],
-        "department": "MarTech",
-        "hire_date": null
-    }
-},
-{
-    "model": "accounts.employeeprofile",
-    "pk": 6,
-    "fields": {
-        "user": [
-            "maruf69@yopmail.com"
-        ],
-        "department": "GovTech",
-        "hire_date": null
-    }
-},
-{
-    "model": "crm.project",
-    "pk": "0934f375-872f-46f5-9dc2-9789ef7dc320",
-    "fields": {
-        "created_at": "2026-07-17T18:36:50.701Z",
-        "updated_at": "2026-07-22T14:15:47.134Z",
-        "title": "Portal Test: Web Platform",
-        "description": "Full-stack web platform with admin panel.",
-        "status": "completed",
-        "client": 1,
-        "start_date": "2026-07-25",
-        "target_end_date": "2026-10-26"
-    }
-},
-{
-    "model": "crm.project",
-    "pk": "2ca0f032-8268-447c-9af4-acfe01144227",
-    "fields": {
-        "created_at": "2026-07-22T16:27:20.341Z",
-        "updated_at": "2026-07-22T20:17:05.672Z",
-        "title": "E-commerce",
-        "description": "A fully functional system",
-        "status": "on_hold",
-        "client": 4,
-        "start_date": "2026-07-22",
-        "target_end_date": "2026-08-08"
-    }
-},
-{
-    "model": "crm.project",
-    "pk": "723c6a90-0242-49a2-982e-9e411883844a",
-    "fields": {
-        "created_at": "2026-07-17T14:47:35.488Z",
-        "updated_at": "2026-07-22T14:15:47.141Z",
-        "title": "Website Redesign",
-        "description": "",
-        "status": "completed",
-        "client": 1,
-        "start_date": "2026-07-17",
-        "target_end_date": null
-    }
-},
-{
-    "model": "crm.project",
-    "pk": "9091d20b-b9e6-4ae0-92b7-96860d891f9d",
-    "fields": {
-        "created_at": "2026-07-22T13:44:06.615Z",
-        "updated_at": "2026-07-22T13:44:06.615Z",
-        "title": "Website Development",
-        "description": "we will also need a payment system",
-        "status": "not_started",
-        "client": 4,
-        "start_date": "2026-07-22",
-        "target_end_date": "2026-08-05"
-    }
-},
-{
-    "model": "crm.project",
-    "pk": "ad8a7201-836c-4327-b1d3-1c728dabd1b4",
-    "fields": {
-        "created_at": "2026-07-22T19:36:36.513Z",
-        "updated_at": "2026-07-22T20:16:59.211Z",
-        "title": "Health Tracker",
-        "description": "A mobile application for health tracking",
-        "status": "not_started",
-        "client": 4,
-        "start_date": "2026-08-01",
-        "target_end_date": "2026-09-05"
-    }
-},
-{
-    "model": "crm.project",
-    "pk": "f8054ddf-f8c4-49d9-b2bc-b9beae920fbb",
-    "fields": {
-        "created_at": "2026-07-17T14:45:00.178Z",
-        "updated_at": "2026-07-22T14:15:47.143Z",
-        "title": "Website Redesign",
-        "description": "",
-        "status": "completed",
-        "client": 1,
-        "start_date": "2026-07-17",
-        "target_end_date": null
-    }
-},
-{
-    "model": "crm.project",
-    "pk": "f9ce8a3a-6dd7-4ed2-92e5-1b0f6587ba7d",
-    "fields": {
-        "created_at": "2026-07-17T15:59:56.845Z",
-        "updated_at": "2026-07-22T14:15:47.140Z",
-        "title": "E-commerce Website Build",
-        "description": "Full Shopify-based e-commerce platform with custom theme, payment integration, and admin dashboard.",
-        "status": "completed",
-        "client": 1,
-        "start_date": "2026-07-24",
-        "target_end_date": "2026-10-15"
-    }
-},
-{
-    "model": "crm.task",
-    "pk": "164f0e5a-c9d9-45d4-8f5d-e18609e3800c",
-    "fields": {
-        "created_at": "2026-07-22T09:46:40.825Z",
-        "updated_at": "2026-07-22T13:51:57.634Z",
-        "title": "Fix the bugs",
-        "description": "",
-        "project": "0934f375-872f-46f5-9dc2-9789ef7dc320",
-        "assignee": [
-            "21303063@iubat.edu"
-        ],
-        "priority": "medium",
-        "status": "done",
-        "due_date": "2026-07-25"
-    }
-},
-{
-    "model": "crm.task",
-    "pk": "237a0d36-869e-4fe5-ad23-1d03f9c5697f",
-    "fields": {
-        "created_at": "2026-07-22T19:39:54.237Z",
-        "updated_at": "2026-07-22T19:39:54.267Z",
-        "title": "HomePage",
-        "description": "",
-        "project": "2ca0f032-8268-447c-9af4-acfe01144227",
-        "assignee": [
-            "tuhin69@yopmail.com"
-        ],
-        "priority": "medium",
-        "status": "todo",
-        "due_date": "2026-07-28"
-    }
-},
-{
-    "model": "crm.task",
-    "pk": "605056a9-94bf-4044-8a3f-e5199d0dc36d",
-    "fields": {
-        "created_at": "2026-07-21T19:59:30.507Z",
-        "updated_at": "2026-07-22T09:25:24.834Z",
-        "title": "Change the ui",
-        "description": "",
-        "project": "723c6a90-0242-49a2-982e-9e411883844a",
-        "assignee": [
-            "21303063@iubat.edu"
-        ],
-        "priority": "medium",
-        "status": "done",
-        "due_date": "2026-07-31"
-    }
-},
-{
-    "model": "crm.task",
-    "pk": "6a66eac9-9cac-4be6-9688-136f9900486c",
-    "fields": {
-        "created_at": "2026-07-17T14:47:35.756Z",
-        "updated_at": "2026-07-21T18:37:49.607Z",
-        "title": "Design homepage mockup",
-        "description": "",
-        "project": "723c6a90-0242-49a2-982e-9e411883844a",
-        "assignee": null,
-        "priority": "high",
-        "status": "done",
-        "due_date": null
-    }
-},
-{
-    "model": "crm.task",
-    "pk": "79476b2c-3b57-4c56-9399-6e89d4567f7a",
-    "fields": {
-        "created_at": "2026-07-22T19:40:22.572Z",
-        "updated_at": "2026-07-22T19:40:22.585Z",
-        "title": "Admin Panel",
-        "description": "",
-        "project": "2ca0f032-8268-447c-9af4-acfe01144227",
-        "assignee": [
-            "asahadhasan@gmail.com"
-        ],
-        "priority": "medium",
-        "status": "todo",
-        "due_date": "2026-07-30"
-    }
-},
-{
-    "model": "crm.task",
-    "pk": "be407e28-872d-482c-af09-55a090b4153c",
-    "fields": {
-        "created_at": "2026-07-22T09:43:03.796Z",
-        "updated_at": "2026-07-22T13:54:04.240Z",
-        "title": "Redesign the Dashboard of all users",
-        "description": "",
-        "project": "f8054ddf-f8c4-49d9-b2bc-b9beae920fbb",
-        "assignee": [
-            "rakibul19shakib@gmail.com"
-        ],
-        "priority": "medium",
-        "status": "done",
-        "due_date": "2026-07-29"
-    }
-},
-{
-    "model": "crm.task",
-    "pk": "d2a69e8e-d870-4ecd-90e4-b346d07a7d35",
-    "fields": {
-        "created_at": "2026-07-22T09:46:15.787Z",
-        "updated_at": "2026-07-22T13:54:43.636Z",
-        "title": "Test all the api",
-        "description": "",
-        "project": "0934f375-872f-46f5-9dc2-9789ef7dc320",
-        "assignee": [
-            "radmim@yopmail.com"
-        ],
-        "priority": "medium",
-        "status": "done",
-        "due_date": "2026-07-23"
-    }
-},
-{
-    "model": "crm.task",
-    "pk": "db99f83b-d5c7-435a-9147-73c6858c207c",
-    "fields": {
-        "created_at": "2026-07-22T09:45:48.471Z",
-        "updated_at": "2026-07-22T13:51:37.233Z",
-        "title": "Create the database relations table structure",
-        "description": "",
-        "project": "f9ce8a3a-6dd7-4ed2-92e5-1b0f6587ba7d",
-        "assignee": [
-            "asahadhasan@gmail.com"
-        ],
-        "priority": "low",
-        "status": "done",
-        "due_date": "2026-07-25"
-    }
-},
-{
-    "model": "crm.task",
-    "pk": "e1cded08-efa3-484c-b863-68b903c71157",
-    "fields": {
-        "created_at": "2026-07-22T09:43:40.462Z",
-        "updated_at": "2026-07-22T13:52:22.787Z",
-        "title": "Change the security system",
-        "description": "",
-        "project": "f8054ddf-f8c4-49d9-b2bc-b9beae920fbb",
-        "assignee": [
-            "maruf69@yopmail.com"
-        ],
-        "priority": "medium",
-        "status": "done",
-        "due_date": "2026-07-28"
-    }
-},
-{
-    "model": "crm.task",
-    "pk": "ef6659ec-7b7b-4f78-8983-73d5e3b02c47",
-    "fields": {
-        "created_at": "2026-07-22T09:45:14.804Z",
-        "updated_at": "2026-07-22T13:52:45.203Z",
-        "title": "make the architecture of the project",
-        "description": "",
-        "project": "f9ce8a3a-6dd7-4ed2-92e5-1b0f6587ba7d",
-        "assignee": [
-            "tuhin69@yopmail.com"
-        ],
-        "priority": "high",
-        "status": "done",
-        "due_date": "2026-07-24"
-    }
-},
-{
-    "model": "crm.taskupdate",
-    "pk": "539d5e33-f4ff-4676-9821-0d2961c90c49",
-    "fields": {
-        "created_at": "2026-07-22T09:25:15.698Z",
-        "updated_at": "2026-07-22T09:25:15.698Z",
-        "task": "605056a9-94bf-4044-8a3f-e5199d0dc36d",
-        "author": [
-            "admin@technova.com"
-        ],
-        "update_type": "reply",
-        "body": "Great job"
-    }
-},
-{
-    "model": "crm.taskupdate",
-    "pk": "5c2dda89-affa-44f1-a369-14f223415eee",
-    "fields": {
-        "created_at": "2026-07-22T13:51:31.111Z",
-        "updated_at": "2026-07-22T13:51:31.111Z",
-        "task": "db99f83b-d5c7-435a-9147-73c6858c207c",
-        "author": [
-            "asahadhasan@gmail.com"
-        ],
-        "update_type": "progress",
-        "body": "architecture done"
-    }
-},
-{
-    "model": "crm.taskupdate",
-    "pk": "5d0a6c11-ec1a-4fc4-9a16-cbd665689f44",
-    "fields": {
-        "created_at": "2026-07-22T09:24:44.581Z",
-        "updated_at": "2026-07-22T09:24:44.581Z",
-        "task": "605056a9-94bf-4044-8a3f-e5199d0dc36d",
-        "author": [
-            "21303063@iubat.edu"
-        ],
-        "update_type": "progress",
-        "body": "The work is done"
-    }
-},
-{
-    "model": "crm.lead",
-    "pk": "12659305-afc8-40d4-b17b-7cdfeae20ed1",
-    "fields": {
-        "created_at": "2026-07-18T09:45:49.037Z",
-        "updated_at": "2026-07-18T09:45:49.037Z",
-        "name": "Celery Async",
-        "email": "celeryasync@example.com",
-        "phone": "123",
-        "company": "AsyncCo",
-        "message": "Test",
-        "desired_deadline": "2026-12-01",
-        "source": "website",
-        "status": "converted",
-        "captcha_verified": true,
-        "converted_client": 3
-    }
-},
-{
-    "model": "crm.lead",
-    "pk": "1b3e5cd0-2260-4cf5-a987-13e5eccdfc15",
-    "fields": {
-        "created_at": "2026-07-22T19:57:59.224Z",
-        "updated_at": "2026-07-22T19:57:59.224Z",
-        "name": "sajid",
-        "email": "sajid@yopmail.com",
-        "phone": "01234567890",
-        "company": "Ghorar Dim",
-        "message": "Website for my clothing brand",
-        "desired_deadline": null,
-        "source": "website",
-        "status": "converted",
-        "captcha_verified": true,
-        "converted_client": 6
-    }
-},
-{
-    "model": "crm.lead",
-    "pk": "3cd50452-1805-41c1-84c5-38dbc3be3597",
-    "fields": {
-        "created_at": "2026-07-21T16:31:39.961Z",
-        "updated_at": "2026-07-21T18:35:46.805Z",
-        "name": "Rakibul Islam Shakib",
-        "email": "rakibulislamshakib570@gmail.com",
-        "phone": "01850765614",
-        "company": "Softech",
-        "message": "I need to build a website for my brand",
-        "desired_deadline": null,
-        "source": "website",
-        "status": "converted",
-        "captcha_verified": true,
-        "converted_client": 4
-    }
-},
-{
-    "model": "crm.lead",
-    "pk": "4028f538-c908-47fc-89a5-3c0c47205324",
-    "fields": {
-        "created_at": "2026-07-21T16:31:44.131Z",
-        "updated_at": "2026-07-21T19:47:38.389Z",
-        "name": "Rakibul Islam Shakib",
-        "email": "rakibulislamshakib570@gmail.com",
-        "phone": "01850765614",
-        "company": "Softech",
-        "message": "I need to build a website for my brand",
-        "desired_deadline": null,
-        "source": "website",
-        "status": "contacted",
-        "captcha_verified": true,
-        "converted_client": 4
-    }
-},
-{
-    "model": "crm.lead",
-    "pk": "6d0ab580-8094-43f5-be5e-13f7dfa46018",
-    "fields": {
-        "created_at": "2026-07-18T09:45:23.521Z",
-        "updated_at": "2026-07-18T09:45:23.521Z",
-        "name": "Celery Test",
-        "email": "celerytest2@example.com",
-        "phone": "123",
-        "company": "TestCo",
-        "message": "Testing async email",
-        "desired_deadline": "2026-12-01",
-        "source": "website",
-        "status": "converted",
-        "captcha_verified": true,
-        "converted_client": 5
-    }
-},
-{
-    "model": "crm.lead",
-    "pk": "8b29d2d4-785b-4bce-8f9e-0391a7c51c72",
-    "fields": {
-        "created_at": "2026-07-17T15:18:03.672Z",
-        "updated_at": "2026-07-17T15:18:03.672Z",
-        "name": "John Carter",
-        "email": "john.carter@example.com",
-        "phone": "+1234567890",
-        "company": "Carter Industries",
-        "message": "We need a new inventory management system.",
-        "desired_deadline": null,
-        "source": "website",
-        "status": "converted",
-        "captcha_verified": true,
-        "converted_client": 2
-    }
-},
-{
-    "model": "crm.lead",
-    "pk": "8d93a756-221f-4239-94fd-675e60411e64",
-    "fields": {
-        "created_at": "2026-07-23T09:14:24.529Z",
-        "updated_at": "2026-07-23T09:14:24.529Z",
-        "name": "Alamin",
-        "email": "alamin@yopmail.com",
-        "phone": "01234567890",
-        "company": "Almo",
-        "message": "Car Game",
-        "desired_deadline": null,
-        "source": "website",
-        "status": "contacted",
-        "captcha_verified": true,
-        "converted_client": 7
-    }
-},
-{
-    "model": "crm.proposal",
-    "pk": "4a780016-101e-4acb-9178-2cf85fa72843",
-    "fields": {
-        "created_at": "2026-07-22T13:37:31.478Z",
-        "updated_at": "2026-07-22T13:44:06.617Z",
-        "client": 4,
-        "lead": "4028f538-c908-47fc-89a5-3c0c47205324",
-        "title": "Website Development",
-        "scope": "we will also need a payment system",
-        "proposed_budget": "3000.00",
-        "proposed_start_date": "2026-07-22",
-        "proposed_end_date": "2026-08-05",
-        "technologies": "react.js , java, postgre",
-        "status": "accepted",
-        "linked_project": "9091d20b-b9e6-4ae0-92b7-96860d891f9d"
-    }
-},
-{
-    "model": "crm.proposal",
-    "pk": "5bda1690-35dd-408c-84e5-8642a7c4a4bb",
-    "fields": {
-        "created_at": "2026-07-17T18:36:50.011Z",
-        "updated_at": "2026-07-17T18:36:50.702Z",
-        "client": 1,
-        "lead": null,
-        "title": "Portal Test: Web Platform",
-        "scope": "Full-stack web platform with admin panel.",
-        "proposed_budget": "16000.00",
-        "proposed_start_date": "2026-07-25",
-        "proposed_end_date": "2026-10-26",
-        "technologies": "Django, React, PostgreSQL",
-        "status": "accepted",
-        "linked_project": "0934f375-872f-46f5-9dc2-9789ef7dc320"
-    }
-},
-{
-    "model": "crm.proposal",
-    "pk": "5f07d97a-a572-43c5-b323-a3f825939864",
-    "fields": {
-        "created_at": "2026-07-17T18:34:54.120Z",
-        "updated_at": "2026-07-17T18:34:54.120Z",
-        "client": 1,
-        "lead": null,
-        "title": "Portal Test: Web Platform",
-        "scope": "Full-stack web platform with admin panel.",
-        "proposed_budget": "20000.00",
-        "proposed_start_date": "2026-07-25",
-        "proposed_end_date": "2026-10-16",
-        "technologies": "Django, React, PostgreSQL",
-        "status": "sent",
-        "linked_project": null
-    }
-},
-{
-    "model": "crm.proposal",
-    "pk": "7f9fee6c-b494-486e-bf12-1ef481591259",
-    "fields": {
-        "created_at": "2026-07-22T16:26:26.151Z",
-        "updated_at": "2026-07-22T16:26:26.151Z",
-        "client": 4,
-        "lead": "4028f538-c908-47fc-89a5-3c0c47205324",
-        "title": "E-commerce",
-        "scope": "A fully functional system",
-        "proposed_budget": "45000.00",
-        "proposed_start_date": "2026-07-22",
-        "proposed_end_date": "2026-08-08",
-        "technologies": "react, node.js, postgre",
-        "status": "accepted",
-        "linked_project": "2ca0f032-8268-447c-9af4-acfe01144227"
-    }
-},
-{
-    "model": "crm.proposal",
-    "pk": "ab6aca87-c090-4e80-911f-6c7a510b5b9a",
-    "fields": {
-        "created_at": "2026-07-23T09:16:45.512Z",
-        "updated_at": "2026-07-23T09:16:45.512Z",
-        "client": 7,
-        "lead": "8d93a756-221f-4239-94fd-675e60411e64",
-        "title": "Car Game",
-        "scope": "A futuristic racing platform",
-        "proposed_budget": "70000.00",
-        "proposed_start_date": "2026-07-25",
-        "proposed_end_date": "2026-08-07",
-        "technologies": "Java, React.js , Postgre",
-        "status": "sent",
-        "linked_project": null
-    }
-},
-{
-    "model": "crm.proposal",
-    "pk": "b204b2f2-58ec-42a5-94fc-77961e7cd140",
-    "fields": {
-        "created_at": "2026-07-17T15:59:56.672Z",
-        "updated_at": "2026-07-17T15:59:56.672Z",
-        "client": 1,
-        "lead": null,
-        "title": "E-commerce Website Build",
-        "scope": "Full Shopify-based e-commerce platform with custom theme, payment integration, and admin dashboard.",
-        "proposed_budget": "15000.00",
-        "proposed_start_date": "2026-07-24",
-        "proposed_end_date": "2026-10-15",
-        "technologies": "Django, React, PostgreSQL, Stripe",
-        "status": "accepted",
-        "linked_project": "f9ce8a3a-6dd7-4ed2-92e5-1b0f6587ba7d"
-    }
-},
-{
-    "model": "crm.proposal",
-    "pk": "ba53ff47-d2a5-423e-b12e-929cf7578fca",
-    "fields": {
-        "created_at": "2026-07-22T19:34:05.039Z",
-        "updated_at": "2026-07-22T19:34:05.039Z",
-        "client": 4,
-        "lead": "4028f538-c908-47fc-89a5-3c0c47205324",
-        "title": "Health Tracker",
-        "scope": "A mobile application for health tracking",
-        "proposed_budget": "50000.00",
-        "proposed_start_date": "2026-08-01",
-        "proposed_end_date": "2026-09-05",
-        "technologies": "React.js, node,js",
-        "status": "accepted",
-        "linked_project": "ad8a7201-836c-4327-b1d3-1c728dabd1b4"
-    }
-},
-{
-    "model": "crm.proposal",
-    "pk": "cb5d7c28-470b-4d2c-a8e3-8e495a7fa5f2",
-    "fields": {
-        "created_at": "2026-07-17T18:14:57.326Z",
-        "updated_at": "2026-07-17T18:14:57.326Z",
-        "client": 1,
-        "lead": null,
-        "title": "Rejected Project",
-        "scope": "Something we do not want.",
-        "proposed_budget": "50000.00",
-        "proposed_start_date": "2026-07-25",
-        "proposed_end_date": "2026-10-16",
-        "technologies": "",
-        "status": "rejected",
-        "linked_project": null
-    }
-},
-{
-    "model": "crm.proposal",
-    "pk": "db820771-6714-471c-9155-2b39c81a4fe3",
-    "fields": {
-        "created_at": "2026-07-17T18:14:56.824Z",
-        "updated_at": "2026-07-17T18:14:57.181Z",
-        "client": 1,
-        "lead": null,
-        "title": "Negotiation Test Project",
-        "scope": "Build a mobile app with push notifications.",
-        "proposed_budget": "12000.00",
-        "proposed_start_date": "2026-07-25",
-        "proposed_end_date": "2026-10-26",
-        "technologies": "Flutter, Firebase",
-        "status": "accepted",
-        "linked_project": null
-    }
-},
-{
-    "model": "crm.proposalmessage",
-    "pk": "140e7a05-be2c-4ec3-ae30-9aa75c75bebd",
-    "fields": {
-        "created_at": "2026-07-22T13:40:14.494Z",
-        "updated_at": "2026-07-22T13:40:14.494Z",
-        "proposal": "4a780016-101e-4acb-9178-2cf85fa72843",
-        "author": [
-            "rakibulislamshakib570@gmail.com"
-        ],
-        "body": "Before starting the project we need to sit for a meeting to discuss about the project",
-        "message_type": "counter_offer",
-        "proposed_budget": "3000.00",
-        "proposed_start_date": "2026-07-22",
-        "proposed_end_date": "2026-08-05",
-        "proposed_scope": "we will also need a payment system",
-        "offer_status": "accepted"
-    }
-},
-{
-    "model": "crm.proposalmessage",
-    "pk": "863eb824-2224-4451-8374-8ffdd12288e7",
-    "fields": {
-        "created_at": "2026-07-17T18:36:50.619Z",
-        "updated_at": "2026-07-17T18:36:50.619Z",
-        "proposal": "5bda1690-35dd-408c-84e5-8642a7c4a4bb",
-        "author": [
-            "client@test.com"
-        ],
-        "body": "We were hoping for around 16k. Can we work with that?",
-        "message_type": "counter_offer",
-        "proposed_budget": "16000.00",
-        "proposed_start_date": "2026-07-25",
-        "proposed_end_date": "2026-10-26",
-        "proposed_scope": "",
-        "offer_status": "accepted"
-    }
-},
-{
-    "model": "crm.proposalmessage",
-    "pk": "8ca8247f-3de4-4f82-beac-b26dc38fde2e",
-    "fields": {
-        "created_at": "2026-07-17T18:14:57.478Z",
-        "updated_at": "2026-07-17T18:14:57.478Z",
-        "proposal": "cb5d7c28-470b-4d2c-a8e3-8e495a7fa5f2",
-        "author": [
-            "admin@technova.com"
-        ],
-        "body": "Budget too high for our needs.",
-        "message_type": "message",
-        "proposed_budget": null,
-        "proposed_start_date": null,
-        "proposed_end_date": null,
-        "proposed_scope": "",
-        "offer_status": "pending"
-    }
-},
-{
-    "model": "crm.proposalmessage",
-    "pk": "9cd004e2-24ae-49e2-ae86-189604e788ff",
-    "fields": {
-        "created_at": "2026-07-22T13:40:44.014Z",
-        "updated_at": "2026-07-22T13:40:44.014Z",
-        "proposal": "4a780016-101e-4acb-9178-2cf85fa72843",
-        "author": [
-            "rakibulislamshakib570@gmail.com"
-        ],
-        "body": "Hiii",
-        "message_type": "message",
-        "proposed_budget": null,
-        "proposed_start_date": null,
-        "proposed_end_date": null,
-        "proposed_scope": "",
-        "offer_status": "pending"
-    }
-},
-{
-    "model": "crm.proposalmessage",
-    "pk": "e2478fae-3b5a-4b9c-ae9c-d5c91369e174",
-    "fields": {
-        "created_at": "2026-07-17T18:14:57.096Z",
-        "updated_at": "2026-07-17T18:14:57.096Z",
-        "proposal": "db820771-6714-471c-9155-2b39c81a4fe3",
-        "author": [
-            "admin@technova.com"
-        ],
-        "body": "Can you do 12k? We need a bit more time.",
-        "message_type": "counter_offer",
-        "proposed_budget": "12000.00",
-        "proposed_start_date": "2026-07-25",
-        "proposed_end_date": "2026-10-26",
-        "proposed_scope": "Build a mobile app with push notifications.",
-        "offer_status": "accepted"
-    }
-},
-{
-    "model": "crm.clientprojectrequest",
-    "pk": "1360ed2b-6316-4f99-bed2-5f2a6b2fffaa",
-    "fields": {
-        "created_at": "2026-07-22T19:14:07.708Z",
-        "updated_at": "2026-07-22T19:37:21.700Z",
-        "client": 4,
-        "title": "Health Trakcer",
-        "description": "A mobile app for health tracking",
-        "desired_deadline": "2026-08-08",
-        "proposed_budget": "5000.00",
-        "status": "rejected"
-    }
-},
-{
-    "model": "crm.clientprojectrequest",
-    "pk": "90908580-1fe8-470e-9cc1-2072d074b0cc",
-    "fields": {
-        "created_at": "2026-07-22T19:11:22.931Z",
-        "updated_at": "2026-07-22T19:37:16.790Z",
-        "client": 4,
-        "title": "Health Tracker",
-        "description": "A mobile application for health tracking",
-        "desired_deadline": "2026-08-08",
-        "proposed_budget": "5000.00",
-        "status": "rejected"
-    }
-},
-{
-    "model": "crm.projectmessage",
-    "pk": "2adf7065-4abf-4186-8d7e-f9fab3d50364",
-    "fields": {
-        "created_at": "2026-07-22T19:58:44.527Z",
-        "updated_at": "2026-07-22T19:58:44.527Z",
-        "project": "2ca0f032-8268-447c-9af4-acfe01144227",
-        "author": [
-            "rakibulislamshakib570@gmail.com"
-        ],
-        "body": "what is the progress??",
-        "is_feature_request": false,
-        "is_read_by_staff": true
-    }
-},
-{
-    "model": "crm.projectmessage",
-    "pk": "43b16119-1753-4333-ac74-bae8f654ce8a",
-    "fields": {
-        "created_at": "2026-07-22T20:09:03.486Z",
-        "updated_at": "2026-07-22T20:09:03.486Z",
-        "project": "2ca0f032-8268-447c-9af4-acfe01144227",
-        "author": [
-            "rakibulislamshakib570@gmail.com"
-        ],
-        "body": "what about hr progress?",
-        "is_feature_request": false,
-        "is_read_by_staff": true
-    }
-},
-{
-    "model": "crm.projectmessage",
-    "pk": "60a51372-da13-486e-8830-1669a1cf3131",
-    "fields": {
-        "created_at": "2026-07-22T20:03:39.334Z",
-        "updated_at": "2026-07-22T20:03:39.334Z",
-        "project": "2ca0f032-8268-447c-9af4-acfe01144227",
-        "author": [
-            "admin@technova.com"
-        ],
-        "body": "don't worry we have started the work",
-        "is_feature_request": false,
-        "is_read_by_staff": true
-    }
-},
-{
-    "model": "crm.projectmessage",
-    "pk": "81bd0780-eeca-438e-a417-2d2c7b3f5a45",
-    "fields": {
-        "created_at": "2026-07-22T20:07:33.200Z",
-        "updated_at": "2026-07-22T20:07:33.200Z",
-        "project": "2ca0f032-8268-447c-9af4-acfe01144227",
-        "author": [
-            "rakibulislamshakib570@gmail.com"
-        ],
-        "body": "what about the progress??",
-        "is_feature_request": false,
-        "is_read_by_staff": true
-    }
-},
-{
-    "model": "crm.projectmessage",
-    "pk": "bf72314d-3c20-4c04-86c2-f6a6e279f1bd",
-    "fields": {
-        "created_at": "2026-07-22T20:04:15.647Z",
-        "updated_at": "2026-07-22T20:04:15.647Z",
-        "project": "2ca0f032-8268-447c-9af4-acfe01144227",
-        "author": [
-            "rakibulislamshakib570@gmail.com"
-        ],
-        "body": "okkk",
-        "is_feature_request": false,
-        "is_read_by_staff": true
-    }
-},
-{
-    "model": "crm.projectmessage",
-    "pk": "c3f22ba3-9d4e-41b9-b338-9c1c93fd1ca7",
-    "fields": {
-        "created_at": "2026-07-22T20:13:38.169Z",
-        "updated_at": "2026-07-22T20:13:38.169Z",
-        "project": "2ca0f032-8268-447c-9af4-acfe01144227",
-        "author": [
-            "admin@technova.com"
-        ],
-        "body": "System works",
-        "is_feature_request": false,
-        "is_read_by_staff": true
-    }
-},
-{
-    "model": "crm.projectmessage",
-    "pk": "eaf6ea0c-d6e7-439f-9c3a-ae5ee3f5a9d0",
-    "fields": {
-        "created_at": "2026-07-22T20:07:43.466Z",
-        "updated_at": "2026-07-22T20:07:43.466Z",
-        "project": "2ca0f032-8268-447c-9af4-acfe01144227",
-        "author": [
-            "rakibulislamshakib570@gmail.com"
-        ],
-        "body": "??",
-        "is_feature_request": false,
-        "is_read_by_staff": true
-    }
-},
-{
-    "model": "crm.projectmessage",
-    "pk": "ed077716-9fb8-484b-a09e-60f317f773e5",
-    "fields": {
-        "created_at": "2026-07-22T20:09:18.168Z",
-        "updated_at": "2026-07-22T20:09:18.168Z",
-        "project": "2ca0f032-8268-447c-9af4-acfe01144227",
-        "author": [
-            "rakibulislamshakib570@gmail.com"
-        ],
-        "body": "hi",
-        "is_feature_request": false,
-        "is_read_by_staff": true
-    }
-},
-{
-    "model": "marketing.service",
-    "pk": 1,
-    "fields": {
-        "is_published": true,
-        "display_order": 1,
-        "created_at": "2026-07-18T09:31:12.236Z",
-        "updated_at": "2026-07-18T09:31:12.237Z",
-        "title": "Web Development",
-        "slug": "web-development",
-        "icon": "code",
-        "short_description": "Custom web apps built with modern tech.",
-        "full_description": "Full-stack web development...",
-        "features": [
-            "Django backend",
-            "React frontend",
-            "REST APIs"
-        ]
-    }
-},
-{
-    "model": "marketing.service",
-    "pk": 2,
-    "fields": {
-        "is_published": true,
-        "display_order": 2,
-        "created_at": "2026-07-18T09:31:12.243Z",
-        "updated_at": "2026-07-18T09:31:12.243Z",
-        "title": "Mobile Apps",
-        "slug": "mobile-apps",
-        "icon": "mobile",
-        "short_description": "iOS and Android apps.",
-        "full_description": "Cross-platform mobile development...",
-        "features": [
-            "Flutter",
-            "Native iOS/Android"
-        ]
-    }
-},
-{
-    "model": "marketing.service",
-    "pk": 3,
-    "fields": {
-        "is_published": false,
-        "display_order": 0,
-        "created_at": "2026-07-18T09:31:12.244Z",
-        "updated_at": "2026-07-18T09:31:12.244Z",
-        "title": "Draft Service",
-        "slug": "draft",
-        "icon": "draft",
-        "short_description": "Not ready yet.",
-        "full_description": "Work in progress.",
-        "features": []
-    }
-},
-{
-    "model": "marketing.service",
-    "pk": 4,
-    "fields": {
-        "is_published": true,
-        "display_order": 3,
-        "created_at": "2026-07-21T15:34:15.480Z",
-        "updated_at": "2026-07-21T15:34:15.480Z",
-        "title": "Cloud & DevOps",
-        "slug": "cloud-devops",
-        "icon": "cloud",
-        "short_description": "Scalable cloud infrastructure, CI/CD pipelines, and container orchestration.",
-        "full_description": "We architect resilient cloud platforms on AWS, Azure, and GCP with automated deployment pipelines, Kubernetes orchestration, and zero-downtime deployments.",
-        "features": [
-            "AWS / Azure / GCP",
-            "Kubernetes & Docker",
-            "CI/CD Pipelines",
-            "Infrastructure as Code"
-        ]
-    }
-},
-{
-    "model": "marketing.service",
-    "pk": 5,
-    "fields": {
-        "is_published": true,
-        "display_order": 4,
-        "created_at": "2026-07-21T15:34:15.489Z",
-        "updated_at": "2026-07-21T15:34:15.489Z",
-        "title": "AI & Machine Learning",
-        "slug": "ai-machine-learning",
-        "icon": "ai",
-        "short_description": "Intelligent systems powered by ML, NLP, and computer vision.",
-        "full_description": "From predictive analytics to generative AI, we build intelligent systems that learn from your data. Our ML solutions include recommendation engines, NLP, computer vision, and LLM-powered assistants.",
-        "features": [
-            "Predictive Analytics",
-            "NLP & Chatbots",
-            "Computer Vision",
-            "LLM Integration"
-        ]
-    }
-},
-{
-    "model": "marketing.service",
-    "pk": 6,
-    "fields": {
-        "is_published": true,
-        "display_order": 5,
-        "created_at": "2026-07-21T15:34:15.491Z",
-        "updated_at": "2026-07-21T15:34:15.491Z",
-        "title": "UI/UX Design",
-        "slug": "ui-ux-design",
-        "icon": "design",
-        "short_description": "Human-centered design that delights users and drives conversions.",
-        "full_description": "We craft beautiful, intuitive interfaces backed by user research, wireframing, prototyping, and usability testing. Every pixel is intentional and every interaction feels effortless.",
-        "features": [
-            "User Research",
-            "Wireframing & Prototyping",
-            "Design Systems",
-            "Usability Testing"
-        ]
-    }
-},
-{
-    "model": "marketing.service",
-    "pk": 7,
-    "fields": {
-        "is_published": true,
-        "display_order": 6,
-        "created_at": "2026-07-21T15:34:15.492Z",
-        "updated_at": "2026-07-21T15:34:15.492Z",
-        "title": "IT Consultancy",
-        "slug": "it-consultancy",
-        "icon": "shield",
-        "short_description": "Strategic technology consulting to future-proof your business.",
-        "full_description": "Our consultants help you navigate digital transformation, choose the right tech stack, optimize architecture, and align technology with business goals for maximum ROI.",
-        "features": [
-            "Digital Transformation",
-            "Tech Stack Assessment",
-            "Architecture Review",
-            "Security Audits"
-        ]
-    }
-},
-{
-    "model": "marketing.service",
-    "pk": 8,
-    "fields": {
-        "is_published": true,
-        "display_order": 7,
-        "created_at": "2026-07-21T15:34:15.494Z",
-        "updated_at": "2026-07-21T15:34:15.494Z",
-        "title": "Quality Assurance",
-        "slug": "quality-assurance",
-        "icon": "shield",
-        "short_description": "Comprehensive testing to ship bug-free software with confidence.",
-        "full_description": "Automated and manual testing across unit, integration, end-to-end, and performance testing. We ensure your software is reliable, secure, and performant at scale.",
-        "features": [
-            "Automated Testing",
-            "Performance Testing",
-            "Security Testing",
-            "CI Integration"
-        ]
-    }
-},
-{
-    "model": "marketing.service",
-    "pk": 9,
-    "fields": {
-        "is_published": true,
-        "display_order": 8,
-        "created_at": "2026-07-21T15:34:15.496Z",
-        "updated_at": "2026-07-21T15:34:15.496Z",
-        "title": "Digital Marketing",
-        "slug": "digital-marketing",
-        "icon": "trending",
-        "short_description": "Data-driven marketing strategies that grow your audience and revenue.",
-        "full_description": "SEO, content marketing, paid acquisition, and analytics dashboards. We turn data into growth with measurable, ROI-focused campaigns.",
-        "features": [
-            "SEO Optimization",
-            "Content Strategy",
-            "Paid Acquisition",
-            "Analytics Dashboards"
-        ]
-    }
-},
-{
-    "model": "marketing.testimonial",
-    "pk": 1,
-    "fields": {
-        "is_published": false,
-        "display_order": 0,
-        "created_at": "2026-07-18T09:31:12.246Z",
-        "updated_at": "2026-07-18T09:31:12.246Z",
-        "client_name": "John Smith",
-        "client_title": "CTO",
-        "company": "Acme Corp",
-        "quote": "TechNova delivered beyond expectations!",
-        "rating": 5,
-        "avatar_url": ""
-    }
-},
-{
-    "model": "marketing.testimonial",
-    "pk": 2,
-    "fields": {
-        "is_published": true,
-        "display_order": 1,
-        "created_at": "2026-07-21T16:06:14.957Z",
-        "updated_at": "2026-07-21T16:06:14.957Z",
-        "client_name": "Sarah Chen",
-        "client_title": "CEO",
-        "company": "FinTech Innovations",
-        "quote": "TechNova transformed our entire payment infrastructure. Their team reduced our latency by 88% and the platform now handles 5,000+ concurrent users flawlessly.",
-        "rating": 5,
-        "avatar_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop"
-    }
-},
-{
-    "model": "marketing.testimonial",
-    "pk": 3,
-    "fields": {
-        "is_published": true,
-        "display_order": 2,
-        "created_at": "2026-07-21T16:06:14.960Z",
-        "updated_at": "2026-07-21T16:06:14.960Z",
-        "client_name": "Michael Rodriguez",
-        "client_title": "CTO",
-        "company": "ShopVerse",
-        "quote": "The level of attention to detail is unmatched. They delivered ahead of schedule and our flash sale revenue increased 300% year-over-year.",
-        "rating": 5,
-        "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop"
-    }
-},
-{
-    "model": "marketing.testimonial",
-    "pk": 4,
-    "fields": {
-        "is_published": true,
-        "display_order": 3,
-        "created_at": "2026-07-21T16:06:14.962Z",
-        "updated_at": "2026-07-21T16:06:14.962Z",
-        "client_name": "Dr. Jessica Williams",
-        "client_title": "Founder",
-        "company": "MediCare Plus",
-        "quote": "Working with TechNova was a game-changer. They built a HIPAA-compliant platform serving 50,000+ patients with zero security incidents in 18 months.",
-        "rating": 5,
-        "avatar_url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop"
-    }
-},
-{
-    "model": "marketing.testimonial",
-    "pk": 5,
-    "fields": {
-        "is_published": true,
-        "display_order": 4,
-        "created_at": "2026-07-21T16:06:14.963Z",
-        "updated_at": "2026-07-21T16:06:14.963Z",
-        "client_name": "Daniel Foster",
-        "client_title": "VP of Engineering",
-        "company": "DataGenius",
-        "quote": "Their AI team built a real-time analytics pipeline processing 1.2M+ events daily with 94% predictive accuracy. Absolutely stellar work.",
-        "rating": 5,
-        "avatar_url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop"
-    }
-},
-{
-    "model": "marketing.testimonial",
-    "pk": 6,
-    "fields": {
-        "is_published": true,
-        "display_order": 5,
-        "created_at": "2026-07-21T16:06:14.964Z",
-        "updated_at": "2026-07-21T16:06:14.964Z",
-        "client_name": "Priya Sharma",
-        "client_title": "Product Director",
-        "company": "CloudScale",
-        "quote": "From strategy to deployment, TechNova delivered a scalable cloud platform that cut our infrastructure costs by 40% while doubling performance.",
-        "rating": 5,
-        "avatar_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop"
-    }
-},
-{
-    "model": "marketing.testimonial",
-    "pk": 8,
-    "fields": {
-        "is_published": true,
-        "display_order": 6,
-        "created_at": "2026-07-21T16:06:48.543Z",
-        "updated_at": "2026-07-21T16:06:48.543Z",
-        "client_name": "Alexander Kovac",
-        "client_title": "Head of Digital",
-        "company": "NeoBank",
-        "quote": "TechNova's security-first approach gave us SOC 2 compliance in record time. Their zero-trust architecture passed every penetration test on the first try.",
-        "rating": 5,
-        "avatar_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop"
-    }
-},
-{
-    "model": "marketing.testimonial",
-    "pk": 9,
-    "fields": {
-        "is_published": true,
-        "display_order": 7,
-        "created_at": "2026-07-21T16:06:48.551Z",
-        "updated_at": "2026-07-21T16:06:48.551Z",
-        "client_name": "Emma Lindqvist",
-        "client_title": "COO",
-        "company": "GreenGrid Energy",
-        "quote": "They built an IoT dashboard monitoring 12,000+ smart meters in real time. We cut energy waste by 35% across our entire grid network.",
-        "rating": 5,
-        "avatar_url": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=200&h=200&fit=crop"
-    }
-},
-{
-    "model": "marketing.testimonial",
-    "pk": 10,
-    "fields": {
-        "is_published": true,
-        "display_order": 8,
-        "created_at": "2026-07-21T16:06:48.553Z",
-        "updated_at": "2026-07-21T16:06:48.553Z",
-        "client_name": "Rajesh Patel",
-        "client_title": "Chief Technology Officer",
-        "company": "LogiFlow",
-        "quote": "The route optimization engine TechNova built saves us 18,000 gallons of fuel monthly. ROI was achieved in just 4 months. Outstanding engineering.",
-        "rating": 5,
-        "avatar_url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop"
-    }
-},
-{
-    "model": "marketing.testimonial",
-    "pk": 11,
-    "fields": {
-        "is_published": true,
-        "display_order": 9,
-        "created_at": "2026-07-21T16:06:48.555Z",
-        "updated_at": "2026-07-21T16:06:48.555Z",
-        "client_name": "Sofia Marchetti",
-        "client_title": "VP of Product",
-        "company": "EduSphere",
-        "quote": "Our learning platform went from 0 to 250,000 active learners in 8 months. TechNova's UX team created an experience students genuinely love using.",
-        "rating": 5,
-        "avatar_url": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=200&h=200&fit=crop"
-    }
-},
-{
-    "model": "marketing.testimonial",
-    "pk": 12,
-    "fields": {
-        "is_published": true,
-        "display_order": 10,
-        "created_at": "2026-07-21T16:06:48.556Z",
-        "updated_at": "2026-07-21T16:06:48.556Z",
-        "client_name": "James O'Brien",
-        "client_title": "Founder & CEO",
-        "company": "PropTech Hub",
-        "quote": "TechNova turned our vague vision into a polished marketplace handling $2M+ in monthly transactions. The 3D property tours they built are industry-leading.",
-        "rating": 5,
-        "avatar_url": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=200&h=200&fit=crop"
-    }
-},
-{
-    "model": "marketing.testimonial",
-    "pk": 13,
-    "fields": {
-        "is_published": true,
-        "display_order": 11,
-        "created_at": "2026-07-21T16:06:48.558Z",
-        "updated_at": "2026-07-21T16:06:48.558Z",
-        "client_name": "Lena Hoffmann",
-        "client_title": "Director of Innovation",
-        "company": "AutoMotive AI",
-        "quote": "Their computer vision team achieved 99.2% defect detection accuracy on our assembly line. We reduced quality control costs by 60%. Truly impressive ML work.",
-        "rating": 5,
-        "avatar_url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop"
-    }
-},
-{
-    "model": "marketing.testimonial",
-    "pk": 14,
-    "fields": {
-        "is_published": true,
-        "display_order": 12,
-        "created_at": "2026-07-21T16:06:48.560Z",
-        "updated_at": "2026-07-21T16:06:48.560Z",
-        "client_name": "Marcus Tanaka",
-        "client_title": "Chief Information Officer",
-        "company": "HealthBridge",
-        "quote": "TechNova migrated our legacy systems to a microservices architecture with zero downtime. Patient appointment wait times dropped by 45% post-launch.",
-        "rating": 5,
-        "avatar_url": "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?w=200&h=200&fit=crop"
-    }
-},
-{
-    "model": "marketing.casestudy",
-    "pk": 1,
-    "fields": {
-        "is_published": true,
-        "display_order": 0,
-        "created_at": "2026-07-18T09:31:12.249Z",
-        "updated_at": "2026-07-18T09:31:12.249Z",
-        "title": "E-commerce Platform",
-        "slug": "ecommerce-platform",
-        "client_name": "ShopRight",
-        "summary": "Full e-commerce rebuild.",
-        "challenge": "Legacy system with slow performance.",
-        "solution": "Rebuilt with Django + React.",
-        "results": "3x faster, 40% more conversions.",
-        "cover_image_url": "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=800&q=80",
-        "technologies": [
-            "Django",
-            "React",
-            "PostgreSQL"
-        ],
-        "project_url": ""
-    }
-},
-{
-    "model": "marketing.casestudy",
-    "pk": 2,
-    "fields": {
-        "is_published": true,
-        "display_order": 1,
-        "created_at": "2026-07-21T15:34:15.500Z",
-        "updated_at": "2026-07-21T15:34:15.500Z",
-        "title": "FinTech Transformation",
-        "slug": "fintech-transformation",
-        "client_name": "PayFlow Inc.",
-        "summary": "Modernized payment processing platform, reducing latency by 40% and doubling throughput.",
-        "challenge": "PayFlow's legacy monolith struggled with 500ms+ latency during peak hours, causing transaction timeouts and customer churn. The system could not scale beyond 500 concurrent users.",
-        "solution": "We rebuilt the core payment engine as a microservices architecture on AWS with event-driven processing, Redis caching, and auto-scaling Kubernetes clusters. Implemented a real-time fraud detection layer using ML.",
-        "results": "Latency reduced from 500ms to 60ms (88% improvement). Throughput increased from 500 to 5,000+ concurrent users. Fraud detection accuracy improved to 99.2%.",
-        "cover_image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
-        "technologies": [
-            "Django",
-            "React",
-            "AWS",
-            "Kubernetes",
-            "Redis",
-            "PostgreSQL"
-        ],
-        "project_url": ""
-    }
-},
-{
-    "model": "marketing.casestudy",
-    "pk": 3,
-    "fields": {
-        "is_published": true,
-        "display_order": 2,
-        "created_at": "2026-07-21T15:34:15.503Z",
-        "updated_at": "2026-07-21T15:34:15.503Z",
-        "title": "E-Commerce Scale-Up",
-        "slug": "ecommerce-scale-up",
-        "client_name": "ShopVerse",
-        "summary": "Built real-time inventory system handling 10k+ concurrent users with zero downtime.",
-        "challenge": "ShopVerse flash sales crashed their servers every time. The existing system could not handle traffic spikes, leading to lost revenue and frustrated customers during peak shopping events.",
-        "solution": "Architected a distributed inventory system with event sourcing, real-time stock updates via WebSockets, and a queue-based order processing pipeline. Added CDN caching and edge rendering for product pages.",
-        "results": "Sustained 15,000+ concurrent users during flash sales. Page load time dropped from 4s to 0.8s. Revenue from flash sales increased 300% year-over-year.",
-        "cover_image_url": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
-        "technologies": [
-            "Next.js",
-            "Node.js",
-            "PostgreSQL",
-            "RabbitMQ",
-            "WebSocket",
-            "Cloudflare"
-        ],
-        "project_url": ""
-    }
-},
-{
-    "model": "marketing.casestudy",
-    "pk": 4,
-    "fields": {
-        "is_published": true,
-        "display_order": 3,
-        "created_at": "2026-07-21T15:34:15.505Z",
-        "updated_at": "2026-07-21T15:34:15.505Z",
-        "title": "Healthcare Portal",
-        "slug": "healthcare-portal",
-        "client_name": "MediCare Plus",
-        "summary": "HIPAA-compliant patient management system serving 50k+ users with telemedicine.",
-        "challenge": "MediCare Plus needed a secure, compliant patient portal that integrated scheduling, telemedicine, and electronic health records while meeting strict HIPAA requirements.",
-        "solution": "Built an end-to-end encrypted patient platform with role-based access control, integrated video consultations, appointment scheduling, and a FHIR-compliant EHR system. Deployed on HIPAA-compliant cloud infrastructure.",
-        "results": "50,000+ active patients onboarded. Telemedicine visits increased 500%. Average appointment wait time reduced from 8 days to 2 days. Zero security incidents in 18 months.",
-        "cover_image_url": "https://images.unsplash.com/photo-1576091160550-112173f7f3f0?w=800&q=80",
-        "technologies": [
-            "Django",
-            "React",
-            "WebRTC",
-            "PostgreSQL",
-            "AWS HIPAA",
-            "Twilio"
-        ],
-        "project_url": ""
-    }
-},
-{
-    "model": "marketing.casestudy",
-    "pk": 5,
-    "fields": {
-        "is_published": true,
-        "display_order": 4,
-        "created_at": "2026-07-21T15:34:15.507Z",
-        "updated_at": "2026-07-21T15:34:15.507Z",
-        "title": "AI-Powered Analytics Platform",
-        "slug": "ai-analytics-platform",
-        "client_name": "DataGenius",
-        "summary": "ML-driven business intelligence platform processing 1M+ events per day in real-time.",
-        "challenge": "DataGenius needed a real-time analytics platform that could process millions of data points daily, provide predictive insights, and render interactive dashboards without lag.",
-        "solution": "Built a streaming analytics pipeline with Kafka, Spark, and ClickHouse. Implemented ML models for anomaly detection and forecasting. Created customizable dashboards with D3.js and real-time WebSocket updates.",
-        "results": "Processes 1.2M+ events/day with sub-second latency. Predictive models achieve 94% accuracy. Customer retention improved by 45% with proactive insights.",
-        "cover_image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80",
-        "technologies": [
-            "Python",
-            "Apache Kafka",
-            "Spark",
-            "ClickHouse",
-            "React",
-            "D3.js",
-            "TensorFlow"
-        ],
-        "project_url": ""
-    }
-},
-{
-    "model": "marketing.teammember",
-    "pk": 1,
-    "fields": {
-        "is_published": false,
-        "display_order": 0,
-        "created_at": "2026-07-18T09:31:12.253Z",
-        "updated_at": "2026-07-18T09:31:12.253Z",
-        "name": "Jane Doe",
-        "role": "Lead Developer",
-        "bio": "10 years of experience.",
-        "photo_url": "",
-        "linkedin_url": "",
-        "github_url": ""
-    }
-},
-{
-    "model": "marketing.teammember",
-    "pk": 2,
-    "fields": {
-        "is_published": true,
-        "display_order": 1,
-        "created_at": "2026-07-21T15:55:54.687Z",
-        "updated_at": "2026-07-21T15:55:54.687Z",
-        "name": "Alex Carter",
-        "role": "CEO & Founder",
-        "bio": "Visionary tech entrepreneur with 15+ years building software that scales.",
-        "photo_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
-        "linkedin_url": "https://linkedin.com/in/alexcarter",
-        "github_url": "https://github.com/alexcarter"
-    }
-},
-{
-    "model": "marketing.teammember",
-    "pk": 3,
-    "fields": {
-        "is_published": true,
-        "display_order": 2,
-        "created_at": "2026-07-21T15:55:54.690Z",
-        "updated_at": "2026-07-21T15:55:54.690Z",
-        "name": "Maya Patel",
-        "role": "CTO & Co-founder",
-        "bio": "Full-stack architect who built infrastructure handling millions of requests daily.",
-        "photo_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
-        "linkedin_url": "https://linkedin.com/in/mayapatel",
-        "github_url": "https://github.com/mayapatel"
-    }
-},
-{
-    "model": "marketing.teammember",
-    "pk": 4,
-    "fields": {
-        "is_published": true,
-        "display_order": 3,
-        "created_at": "2026-07-21T15:55:54.691Z",
-        "updated_at": "2026-07-21T15:55:54.691Z",
-        "name": "David Kim",
-        "role": "Lead Product Manager",
-        "bio": "Product strategist passionate about building products users genuinely love.",
-        "photo_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
-        "linkedin_url": "https://linkedin.com/in/davidkim",
-        "github_url": ""
-    }
-},
-{
-    "model": "marketing.teammember",
-    "pk": 5,
-    "fields": {
-        "is_published": true,
-        "display_order": 4,
-        "created_at": "2026-07-21T15:55:54.693Z",
-        "updated_at": "2026-07-21T15:55:54.693Z",
-        "name": "Sarah Johnson",
-        "role": "Head of Design",
-        "bio": "Award-winning designer specializing in user-centered design systems.",
-        "photo_url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
-        "linkedin_url": "https://linkedin.com/in/sarahjohnson",
-        "github_url": ""
-    }
-},
-{
-    "model": "marketing.teammember",
-    "pk": 6,
-    "fields": {
-        "is_published": true,
-        "display_order": 5,
-        "created_at": "2026-07-21T15:55:54.694Z",
-        "updated_at": "2026-07-21T15:55:54.694Z",
-        "name": "Marcus Chen",
-        "role": "Senior ML Engineer",
-        "bio": "AI specialist building intelligent systems with predictive analytics and NLP.",
-        "photo_url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
-        "linkedin_url": "https://linkedin.com/in/marcuschen",
-        "github_url": "https://github.com/marcuschen"
-    }
-},
-{
-    "model": "marketing.teammember",
-    "pk": 7,
-    "fields": {
-        "is_published": true,
-        "display_order": 6,
-        "created_at": "2026-07-21T15:55:54.696Z",
-        "updated_at": "2026-07-21T15:55:54.696Z",
-        "name": "Elena Rodriguez",
-        "role": "DevOps Lead",
-        "bio": "Cloud architect automating deployments with Kubernetes and zero-downtime CI/CD.",
-        "photo_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
-        "linkedin_url": "https://linkedin.com/in/elenarodriguez",
-        "github_url": "https://github.com/elenar"
-    }
-}
 ]
